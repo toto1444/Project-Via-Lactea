@@ -1,0 +1,1 @@
+css, images, js가 들어갈 위치
