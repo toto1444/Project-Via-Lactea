@@ -54,7 +54,7 @@
 
 This ReadMe page currently under-construction:
 **Please be patience**
-`toto144`, `hanjiung`, `twitter_handle`, `email`
+`toto144`, `hanjiung`, `SOMEBODIES`
 
 
 ### Built With
