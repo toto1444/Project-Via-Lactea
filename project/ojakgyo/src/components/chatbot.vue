@@ -1,0 +1,174 @@
+<!--
+  chatbot 개발자: 한지웅
+
+  간단한 정보를 얻을 수 있는 쳇봇을 구현했습니다.
+  아직 디자인이 미완성입니다.
+-->
+<template>
+  <div>
+    <button type="button" class="buttonU" id="buttonUP" v-on:click="buttonUP()"><img src="../assets/chatbot.png" class="chatbotIMG"/></button>
+    <div class="chatPopup" id="chatCircle">
+      <div class="chatTop"> 
+        <span class="ManagerName"> chatBot Manager</span>
+        <a class="Xright" id="chatClose" v-on:click="buttonDOWN()"> &times; </a> 
+      </div>
+      <div id="messageBOX">
+        <ul id="conversationBox">
+          <li>
+            <div class="chatbotMessage">
+              <span> 무엇을 도와드릴까요?</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="inputForm" class="massageBottom">
+        <form id="form" v-on:submit.prevent="onSubmit">
+          <input id="inputMessage" placeholder="메세지를 입력하세요.">
+          <button v-on:submit.prevent="onSubmit"><img class="onSubmitImg" src="../assets/give2.png"></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</template>
+
+
+
+<script>
+
+export default {
+  name: 'chatbot',
+  methods: {
+    buttonUP() {
+      var chatCircleVar = document.getElementById("chatCircle");
+      chatCircleVar.style.opacity = "1";
+      chatCircleVar.style.bottom = "20px";
+      document.getElementById("buttonUP").style.display = "None";
+    },
+    buttonDOWN() {
+      var chatCloseVar = document.getElementById("chatCircle");
+      chatCloseVar.style.bottom = "-990px";
+      chatCloseVar.style.opacity = "0";
+      document.getElementById("buttonUP").style.display="block";
+    },
+    onSubmit() {
+      // 페이지 제로드 방지 
+      var inputM = document.getElementById('inputMessage');
+      console.log(inputM.value)
+      var giveM = document.createElement('li');
+
+      if (inputM.value === "chatbot 개발완료"){
+        console.log("밥먹어")
+        giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
+        var addMessage = document.getElementById('conversationBox');
+        addMessage.appendChild(giveM);
+        inputM.value = '';
+        var giveB = document.createElement('li');
+        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "축하드려요 지웅 개발자" + '</span> </div>';
+        setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
+      }else if(inputM.value === "chatbot 한마디"){
+        
+        giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
+        var addMessage = document.getElementById('conversationBox');
+        addMessage.appendChild(giveM);
+        inputM.value = '';       
+        var giveB = document.createElement('li');
+        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "다들 힘내세요.!" + '</span> </div>';
+        setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
+      }else {
+        giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
+        var addMessage = document.getElementById('conversationBox');
+        addMessage.appendChild(giveM);
+        inputM.value = '';       
+      }   
+  }
+  }}
+</script>
+
+<style scope>
+ul {
+  list-style: None;
+}
+#inputMessage {
+  width: 80%;
+  height: 100%;
+}
+.massageBottom {
+  position: absolute;
+  bottom: 0;
+  background-color: #bef5cb;
+  width: 100%;
+  height: 30px;
+}
+.onSubmitImg {
+  width: 20px;
+  height: 20px;
+}
+.anonymousM {
+  float: right;
+  background-color: #dbedff;
+  margin-top: 10px;
+  min-height: 30px;
+  min-width: 160px;
+  border-radius: 25px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.anonymousM span{
+  display: inline-block;
+}
+.chatbotIMG {
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+}
+.chatTop {
+  background-color: #959da5;
+  height: 35px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.managerName {
+  display:block;
+}
+.Xright {
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.chatPopup {
+  width: 230px;
+  height: 300px;
+  right: 20px;
+  bottom: -990px;
+  position: fixed;
+  background-color: #d1d5da;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonU {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: fixed;
+  display: block;
+  right: 5%;
+  top: 90%;
+}
+
+.chatbotMessage {
+  background-color: #dbedff;
+  width: 170px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border-bottom-left-radius: 5px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+</style>
