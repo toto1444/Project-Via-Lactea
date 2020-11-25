@@ -51,32 +51,31 @@ export default {
       document.getElementById("buttonUP").style.display="block";
     },
     onSubmit() {
-      // 페이지 제로드 방지 
+      // 페이지 제로드 방지 및 
       var inputM = document.getElementById('inputMessage');
       console.log(inputM.value)
       var giveM = document.createElement('li');
+      var giveB = document.createElement('li');
+      var addMessage = document.getElementById('conversationBox');
 
-      if (inputM.value === "chatbot 개발완료"){
-        console.log("밥먹어")
+      if (inputM.value === "배고파"){
+        
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
-        var addMessage = document.getElementById('conversationBox');
         addMessage.appendChild(giveM);
         inputM.value = '';
-        var giveB = document.createElement('li');
-        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "축하드려요 지웅 개발자" + '</span> </div>';
+        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "밥먹어" + '</span> </div>';
         setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
+      
       }else if(inputM.value === "chatbot 한마디"){
         
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
-        var addMessage = document.getElementById('conversationBox');
         addMessage.appendChild(giveM);
         inputM.value = '';       
-        var giveB = document.createElement('li');
         giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "다들 힘내세요.!" + '</span> </div>';
         setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
-      }else {
+
+      }else{
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
-        var addMessage = document.getElementById('conversationBox');
         addMessage.appendChild(giveM);
         inputM.value = '';       
       }   

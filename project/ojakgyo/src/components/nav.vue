@@ -18,7 +18,7 @@ nav 가발자: 한지웅
         <a href="">Why Ojakgyo?</a>
         <a href="">Team</a>
         <a href="">Lanking</a>
-        <a href="">Contact</a>
+        <a href=""> 미정 </a>
       </div>
     </div>
   </div>
