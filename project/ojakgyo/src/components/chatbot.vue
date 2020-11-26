@@ -13,13 +13,15 @@
         <a class="Xright" id="chatClose" v-on:click="buttonDOWN()"> &times; </a> 
       </div>
       <div id="messageBOX">
-        <ul id="conversationBox">
-          <li>
-            <div class="chatbotMessage">
-              <span> 무엇을 도와드릴까요?</span>
-            </div>
-          </li>
-        </ul>
+        <div class="conversationBox2" id="conversationBox3" >
+          <ul id="conversationBox">
+            <li>
+              <div class="chatbotMessage">
+                <span> 무엇을 도와드릴까요?</span>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
       <div id="inputForm" class="massageBottom">
         <form id="form" v-on:submit.prevent="onSubmit">
@@ -57,15 +59,16 @@ export default {
       var giveM = document.createElement('li');
       var giveB = document.createElement('li');
       var addMessage = document.getElementById('conversationBox');
-
+      var addMessage2 = document.getElementById('conversationBox3')
       if (inputM.value === "배고파"){
         
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
         addMessage.appendChild(giveM);
         inputM.value = '';
         giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "밥먹어" + '</span> </div>';
-        setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
+        setTimeout(function(){ addMessage.appendChild(giveB);}, 400);
       
+        setTimeout(function(){addMessage2.scrollTo({top: addMessage2.scrollHeight, behavior: 'smooth'})} ,700);
       }else if(inputM.value === "chatbot 한마디"){
         
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
@@ -73,19 +76,34 @@ export default {
         inputM.value = '';       
         giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "다들 힘내세요.!" + '</span> </div>';
         setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
+        setTimeout(function(){addMessage2.scrollTo({top: addMessage2.scrollHeight, behavior: 'smooth'})} ,700);
 
       }else{
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
         addMessage.appendChild(giveM);
-        inputM.value = '';       
+        inputM.value = '';
+        setTimeout(function(){addMessage2.scrollTo({top: addMessage2.scrollHeight, behavior: 'smooth'})} ,700);
       }   
   }
   }}
 </script>
 
 <style scope>
-ul {
+html {
+  scroll-behavior:  smooth;
+}
+.conversationBox2 {
+  height: 230px;
+  width: 100%;
+  overflow-y: scroll;
+}
+.conversationBox2 li {
   list-style: None;
+}
+#messageBOX {
+  overflow: hidden;
+  overflow-y:scroll;
+
 }
 #inputMessage {
   width: 80%;
@@ -96,7 +114,7 @@ ul {
   bottom: 0;
   background-color: #bef5cb;
   width: 100%;
-  height: 30px;
+  height: 25px;
 }
 .onSubmitImg {
   width: 20px;
@@ -104,7 +122,7 @@ ul {
 }
 .anonymousM {
   float: right;
-  background-color: #dbedff;
+  background-color: #ffffff;
   margin-top: 10px;
   min-height: 30px;
   min-width: 160px;
