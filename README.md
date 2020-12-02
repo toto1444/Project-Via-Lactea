@@ -1,3 +1,29 @@
+<!-- DESCRIPTION -->
+<!--
+***
+*** Guide to Project Via Lactea
+***
+*** @author  AhHyeon An <toto1444@gmail.com>
+*** @version 1.1
+*** @since   2020-09-27
+-->
+
+<!-- NOTE FOR CONTRIBUTERS -->
+<!--
+*** Dec 03 2020, From: AhHyeon An <toto1444@gmail.com>
+***
+*** Dear contributers, I Ahhyeon An<toto1444@gmail.com> recently added and modified
+*** a bunch of stuff to our project Project-Via-Lactea.
+*** Before do farder work, I extremely recommend reviewing recent changes.
+***
+*** Thank you for all you guys dedication and contribution.
+***
+*** Senior General Project Manager and Lead Programmer&Designer,
+***
+*** Ahhyeon An
+***
+-->
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -18,23 +44,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/toto1444/MANAGING">
-    <img src="readme-images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/toto1444/Project-Via-Lactea">
+    <img src="Assets/readme-images/logo-with-text.png" alt="Logo" width="320" height="120">
   </a>
 
-  <h3 align="center">MANAGING</h3>
+  <h3 align="center">Project-Via-Lactea</h3>
 
   <p align="center">
-    MANAGING is Not GanG, Han, An and kiM's team
+    Project-Via-Lactea is Not GanG, Han, An and kiM's team
     <br />
-    <a href="https://github.com/toto1444/MANAGING"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/toto1444/Project-Via-Lactea/tree/master/Docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="*">View Demo</a>
+    <a href="*">View Demo - Not avaliable yet</a>
     ·
-    <a href="https://github.com/toto1444/MANAGING/issues">Report Bug</a>
+    <a href="https://github.com/toto1444/Project-Via-Lactea/issues">Report Bug</a>
     ·
-    <a href="https://github.com/toto1444/MANAGING/issues">Request Feature</a>
+    <a href="https://github.com/toto1444/Project-Via-Lactea/issues">Request Feature</a>
   </p>
 </p>
 
@@ -54,7 +80,7 @@
 
 This ReadMe page currently under-construction:
 **Please be patience**
-`toto144`, `hanjiung`, `SOMEBODIES`
+`toto1444`, `hanjiwoong`, `Moon19ht`
 
 
 ### Built With
@@ -81,6 +107,16 @@ This list is what you need to use the software and how to install them.
 npm install npm@latest -g
 ```
 
+Now, need to install Vue-cli, Vue-devtools, Electron
+```
+# npm install -g @vue/cli
+# npm install -g @vue/devtools
+# npm install -g electron
+```
+
+Alright! All done!
+Everything should properly seted at this point.
+
 **Under-construction**
 
 ### Installation
@@ -99,7 +135,7 @@ npm install npm@latest -g
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/toto1444/MANAGING/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/toto1444/Project-Via-Lactea/issues) for a list of proposed features (and known issues).
 
 
 
@@ -128,7 +164,7 @@ Distributed under the GNU 3.0 License. See `LICENSE` for more information.
 
 AhHyeon An - [@twitter_handle](https://twitter.com/toto144) - email
 
-Project Link: [https://github.com/toto1444/MANAGING](https://github.com/toto1444/MANAGING)
+Project Link: [https://github.com/toto1444/Project-Via-Lactea](https://github.com/toto1444/Project-Via-Lactea)
 
 
 
@@ -146,15 +182,15 @@ Project Link: [https://github.com/toto1444/MANAGING](https://github.com/toto1444
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/toto1444/repo.svg?style=flat-square
-[contributors-url]: https://github.com/toto144/MANAGING/graphs/contributors
+[contributors-url]: https://github.com/toto144/Project-Via-Lactea/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/toto1444/repo.svg?style=flat-square
-[forks-url]: https://github.com/toto144/MANAGING/network/members
+[forks-url]: https://github.com/toto144/Project-Via-Lactea/network/members
 [stars-shield]: https://img.shields.io/github/stars/toto1444/repo.svg?style=flat-square
-[stars-url]: https://github.com/toto144/MANAGING/stargazers
+[stars-url]: https://github.com/toto144/Project-Via-Lactea/stargazers
 [issues-shield]: https://img.shields.io/github/issues/toto1444/repo.svg?style=flat-square
-[issues-url]: https://github.com/toto144/MANAGING/issues
+[issues-url]: https://github.com/toto144/Project-Via-Lactea/issues
 [license-shield]: https://img.shields.io/github/license/toto1444/repo.svg?style=flat-square
-[license-url]: https://github.com/toto144/MANAGING/blob/master/LICENSE.txt
+[license-url]: https://github.com/toto144/Project-Via-Lactea/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 <!--[linkedin-url]: https://linkedin.com/in/toto1444
 [product-screenshot]: readme-images/screenshot.png-->
