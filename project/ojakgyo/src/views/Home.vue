@@ -1,8 +1,10 @@
 <template>
   <div class="home">
     <navigation> </navigation>
-    <img alt="Vue logo" src="../assets/logo.png">
     <mainPage></mainPage>
+    <srcHeader></srcHeader>
+    <rank></rank>
+    <src></src>
     <chatbot></chatbot>
   </div>
 </template>
@@ -12,13 +14,18 @@
 import mainPage from '@/components/mainPage.vue'
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
-
+import srcHeader from '@/components/header.vue'
+import rank from '@/components/rank.vue'
+import src from '@/components/source.vue'
 export default {
   name: 'Home',
   components: {
     mainPage,
     navigation,
-    chatbot
+    chatbot,
+    srcHeader,
+    rank,
+    src
   }
 }
 </script>
@@ -29,5 +36,4 @@ export default {
   margin: 0px;
   padding: 0px;
 }
-
 </style>

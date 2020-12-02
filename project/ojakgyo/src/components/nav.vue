@@ -9,7 +9,10 @@ nav 가발자: 한지웅
 
 <template>
   <div>
-    <span v-on:click="openNavigation()" class="navICON">&#9776;</span>
+    <div class="navback">
+      <img src="../assets/resLogo.png" class="logoSize" > 
+      <span v-on:click="openNavigation()" class="navICON">&#9776;</span>
+    </div>
     <div class="navC" id="ON">
       <div class="nav1">
         <a href="" v-on:click="closeNavigation()">&times;</a>
@@ -52,18 +55,30 @@ export default {
   padding: 0px;
 
 }
-
-.navICON {
+.logoSize {
+  position: relative;
+  left: 45%;
+  width: 8%;
+}
+.navback {
   position: fixed;
-  left: 90%;
+  z-index: 1000;
+  background-color: #4db9bf;
+  width: 100%;
+  height: 6%;
+}
+.navICON {
+  position: relative;
+  left: 80%;
   display: inline-block;
   overflow-x: hidden;
   z-index: 1;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .navC {
+  z-index:2000;
   height: 100%;
   width: 0%;
   font-size: 17px;
