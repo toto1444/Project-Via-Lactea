@@ -15,7 +15,7 @@ jobs:
 
   pull_req:
     name: Pull Request msg
-    if: ${{ on.pull_request }}
+    if: contains(github.event_name, 'pull_request')
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -25,15 +25,21 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO_FIRE }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: | 
-          [*] Branch ${{ github.ref }}에 Pull Request가 있습니다.
-          내용: ${{ github.head_ref }} - ${{ github.base_ref }}
+          [*] ${{ github.event.pull_request.head.ref }} -> ${{ github.event.pull_request.base.ref }}로 Pull Request가 있습니다.
+          ${{ github.event.pull_request.user.login }}가 요청했습니다.
           
-          ${{ github.actor }} 가 요청하였으며,
-          위치는 ${{ github.action_path }} 입니다.
+          
+          =*=*=*= Pull Request =*=*=*=
+          #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}
+          
+          ${{ github.event.pull_request.body }}
+          =*=*=*=*=*=*= END =*=*=*=*=*=
+          
+          ${{ github.event.pull_request.html_url }}
           
   pushed:
     name: Push msg
-    if: ${{ on.push }}
+    if: contains(github.event_name, 'push')
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
@@ -43,8 +49,13 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO_FIRE }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: | 
-          [+] 커밋 ${{ github.sha }}(이)가 Branch ${{ github.ref }}에 Push 되었습니다.
-          커밋 메시지: ${{ github.event.head_commit.message }}
+          [+] 커밋 ${{ github.sha }}(이)가 
+          ${{ github.ref }}에 Push 되었습니다.
+          ${{ github.event.push.user.login }}(이)가 Push 했습니다.
           
-          ${{ github.actor }}가 작업하였으며,
-          위치는 ${{ github.action_path }} 입니다.
+          =/=/=/= Commit Message =/=/=/=
+          ${{ github.event.head_commit.message }}
+          =/=/=/=/=/=   END   =/=/=/=/=/=
+          
+          
+          ${{ github.event.push.html_url }}
