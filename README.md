@@ -48,10 +48,10 @@
     <img src="Assets/readme-images/logo-with-text.png" alt="Logo" width="320" height="120">
   </a>
 
-  <h3 align="center">Project-Via-Lactea</h3>
+  <h3 align="center">Project Via Lactea</h3>
 
   <p align="center">
-    Project-Via-Lactea is Not GanG, Han, An and kiM's team
+    Project Via Lactea is the pletform that connects devloper and tester
     <br />
     <a href="https://github.com/toto1444/Project-Via-Lactea/tree/master/Docs"><strong>Explore the docs »</strong></a>
     <br />
