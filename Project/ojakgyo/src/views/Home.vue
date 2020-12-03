@@ -5,6 +5,7 @@
     <srcHeader></srcHeader>
     <rank></rank>
     <src></src>
+    <copyright></copyright>
     <chatbot></chatbot>
   </div>
 </template>
@@ -17,15 +18,21 @@ import chatbot from '@/components/chatbot.vue'
 import srcHeader from '@/components/header.vue'
 import rank from '@/components/rank.vue'
 import src from '@/components/source.vue'
+import copyright from '@/components/copyright.vue'
+
+
+
 export default {
   name: 'Home',
+  
   components: {
     mainPage,
     navigation,
     chatbot,
     srcHeader,
     rank,
-    src
+    src,
+    copyright
   }
 }
 </script>
