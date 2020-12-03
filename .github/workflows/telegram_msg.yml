@@ -1,0 +1,50 @@
+name: telegram message
+on: 
+  push:
+    branches:
+      - master
+      - dev
+      - jiung
+  pull_request:
+    branches: 
+      - master
+      - dev
+      - jiung
+    
+jobs:
+
+  pull_req:
+    name: Pull Request msg
+    if: ${{ on.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: send git pull req message
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO_FIRE }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: | 
+          [*] Branch ${{ github.ref }}에 Pull Request가 있습니다.
+          내용: ${{ github.head_ref }} - ${{ github.base_ref }}
+          
+          ${{ github.actor }} 가 요청하였으며,
+          위치는 ${{ github.action_path }} 입니다.
+          
+  pushed:
+    name: Push msg
+    if: ${{ on.push }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: send git pushed req message
+      uses: appleboy/telegram-action@master
+      with:
+        to: ${{ secrets.TELEGRAM_TO_FIRE }}
+        token: ${{ secrets.TELEGRAM_TOKEN }}
+        message: | 
+          [+] 커밋 ${{ github.sha }}(이)가 Branch ${{ github.ref }}에 Push 되었습니다.
+          커밋 메시지: ${{ github.event.head_commit.message }}
+          
+          ${{ github.actor }}가 작업하였으며,
+          위치는 ${{ github.action_path }} 입니다.
