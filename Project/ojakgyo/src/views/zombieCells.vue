@@ -6,7 +6,6 @@
 - 스토리 보드 
 
 버그 제거 안아현
-
 -->
 
 <template>
@@ -16,14 +15,21 @@
     <zombieSource></zombieSource>
     <commentSource></commentSource>
     <VueLikeDislikeButtonsSource></VueLikeDislikeButtonsSource>
-    <vue-like-dislike-buttons :likes="876547" :dislikes="4567" likeChecked />
+    <vue-like-dislike-buttons
+      :likes="likes"
+      :dislikes="dislikes"
+      :likeChecked="likeChecked"
+      :dislikeChecked="dislikeChecked"
+      @like="like"
+      @dislike="dislike"
+    />
     <comment-grid
     baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
     apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
     nodeName="ojacgyo">
-  </comment-grid>
+    </comment-grid>
 
- </div>
+  </div>
  </template>
 
 
@@ -44,8 +50,23 @@ export default {
       chatbot,
       zombieSource,
       VueLikeDislikeButtons
+    },
+    data() {
+    return {
+      likes: 500,
+      dislikes: 0,
+      likeChecked: false,
+      dislikeChecked: false
+    };
+  },
+  methods: {
+    like() {
+      this.likes += 1;
+    },
+    dislike() {
+      this.dislikes -= 1;
     }
-
+  }
 }
 
 </script>
