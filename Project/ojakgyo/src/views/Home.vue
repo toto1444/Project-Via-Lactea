@@ -7,20 +7,40 @@
     <src></src>
     <startScreenSource></startScreenSource>
     <chatbot></chatbot>
-    <VueRealWave wavePosition="bottom" waveBackgoundColor="#fcfcfc" :waveColor="['#3ab2c4','#4db9bf','#60c0bb','#73c8b7']" :waveLayerCount="3" :space="200" :waveHeight="20" :waveGap="50"><br>
     <div>
       <p class="pr"> toto1444/Project-Via-Lactea is licensed under the </p> 
       <h4> GNU General Public License v3. </h4><br>
-      <p class="pr"> Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.</p>
-      <h4> Permissions </h4>
-      <ul>
-        <li><i class="fas fa-check"/>Commercial use </li>
-        <li>    <font-awesome-icon icon="user-secret" /> Modification </li>
-        <li> Distribution </li>
-        <li> Patent use </li>
-        <li> Private use </li>
-        </ul>
+      <p class="pr"> Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.</p><br>
     </div>
+    <div>
+      <div class="copyDiv">
+        <h4> Permissions </h4>
+        <ul class="copyLi">
+          <li> <img src="../assets/done-24px.svg"/> Commercial use </li>
+          <li> <img src="../assets/done-24px.svg"/> Modification </li>
+          <li> <img src="../assets/done-24px.svg"/> Distribution </li>
+          <li> <img src="../assets/done-24px.svg"/> Patent use </li>
+          <li> <img src="../assets/done-24px.svg"/> Private use </li>
+          </ul>
+      </div>
+      <div class="copyDiv">
+        <h4> Limitations </h4>
+        <ul class="copyLi">
+          <li> <img src="../assets/clear-24px.svg" /> Liablility </li>
+          <li> <img src="../assets/clear-24px.svg" /> Warranty </li>
+        </ul>
+      </div>
+      <div class="copyDiv">
+        <h4> Conditions </h4>
+        <ul class="copyLi">
+          <li> <img src="../assets/search-24px.svg" /> License and copyright notice </li>
+          <li> <img src="../assets/search-24px.svg" /> State change </li>
+          <li> <img src="../assets/search-24px.svg" /> Disclose source </li>
+          <li> <img src="../assets/search-24px.svg" /> Same license </li>
+        </ul>
+      </div>
+    </div>
+    <VueRealWave wavePosition="bottom" waveBackgoundColor="#fcfcfc" :waveColor="['#3ab2c4','#4db9bf','#60c0bb','#73c8b7']" :waveLayerCount="3" :space="100" :waveHeight="20" :waveGap="50"><br>
   </VueRealWave>
   </div>
 </template>
@@ -61,9 +81,19 @@ export default {
   margin: 0px;
   padding: 0px;
 }
+
+.copyLi li {
+  
+  font-size: 13px;
+  
+
+}
 .pr {
   font-size: 12px;
   color: #586069
 }
+.copyDiv {
 
+  width: 33%;
+}
 </style>
