@@ -8,7 +8,7 @@
 -->
 
 <template>
-    <div class="">
+    <div>
         <h2>Team "Ojakgyo"</h2>
         <br>
         <ui>
@@ -19,7 +19,7 @@
         <ul>
             <li>안아현(AnAhHyeon/toto1444)</li>
             <li>역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</li>
-            <li>코멘터리 : 젭발 Commit 해주세요, 제발 Please....</li>
+            <li>코멘터리 : </li>
         </ul>
         <ul>
             <li>강성룡(KangSungRyong/Ryan)</li>
@@ -36,10 +36,23 @@ export default {
 </script>
 
 <style scoped>
-ul{
-
+@import url('https://fonts.googleapis.com/css?family=Sunflower:Light');
+h2{
+    align-content: center;
+    margin: 40px 0 0;
+    font-family: Sunflower;
 }
-ul li{
-
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-family: Sunflower;
+}
+ul li {
+  padding: 20px;
+  font-size: 1.3em;
+  background: #73c8b7;
+  border: 5px solid #3ab2c4;
+  font-family: Sunflower;
 }
 </style>
