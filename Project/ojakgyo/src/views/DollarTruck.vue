@@ -6,7 +6,6 @@
 - 스토리 보드 
 
 버그 제거 안아현
-
 -->
 
 <template>
@@ -38,13 +37,11 @@ export default {
       chatbot,
       DollarTruckSource,
     }
-
 }
 
 </script>
 
 <style scope>
-
 gameTime {
   color: #343A40;
 }

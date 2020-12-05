@@ -16,14 +16,15 @@ import VueCompositionAPI from '@vue/composition-api'
 import store from './store'
 import VueDisqus from 'vue-disqus'
 import CommentGrid from 'vue-comment-grid'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(CommentGrid)
-
-
 Vue.use(VueCompositionAPI)
 Vue.use(VueDisqus, {
   shortname: 'ojacgyo'
 })
+Vue.component('font-awesome-icon', FontAwesomeIcon)
+
 Vue.config.productionTip = false
 
 new Vue({
