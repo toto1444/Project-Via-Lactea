@@ -26,6 +26,26 @@ const routes = [
     path: '/zombieCells',
     name: 'zombieCells',
     component: () => import('../views/zombieCells.vue')
+  },
+  {
+    path: '/WBMZ',
+    name: '/WBMZ',
+    component: () => import('../views/WBMZ.vue')
+  },
+  {
+    path: '/HeartPump',
+    name: 'HeartPump',
+    component: () => import('../views/HeartPump.vue')
+  },
+  {
+    path: '/WTFO',
+    name: 'WTFO',
+    component: () => import('../views/WTFO.vue')
+  },
+  {
+    path: '/DollarTruck',
+    name: 'DollarTruck',
+    component: () => import('../views/DollarTruck.vue')
   }
 ]
 

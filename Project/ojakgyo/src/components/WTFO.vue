@@ -1,134 +1,140 @@
 <template>
-
   <div>
     <div id='write' class=''>
-              <h2>
-                  <a name="zombiecells" class="md-header-anchor"></a>
-                  <span>ZombieCells</span>
-              </h2>
-              <p>&nbsp;</p>
-              <h4>
-                  <a name="목차" class="md-header-anchor"></a>
-                  <span>목차</span>
-              </h4>
-              <p>
-                  <a href='#요약'>
-                      <span>1. 요약</span>
-                  </a>
-              </p>
-              <p>
-                  <a href='#게임-특징'>
-                      <span>2. 게임 특징</span>
-                  </a>
-              </p>
-              <p>
-                  <a href='#게임-내용'>
-                      <span>3. 게임 내용</span>
-                  </a>
-              </p>
-              <p>
-                  <a href='#테스터에게'>
-                      <span>4. 테스터에게</span>
-                  </a>
-              </p>
-              <p>&nbsp;</p><hr/><p>&nbsp;</p>
-              <h4>
-                  <a name="요약" class="md-header-anchor"></a>
-                  <span>요약</span>
-              </h4>
-              <ol>
-                  <li>
-                      <span>출시예정: 2020년 2월 22일</span>
-                  </li>
-                  <li>
-                      <span>장르: 2D, 로그라이크, 액션, 황스크롤(사이드뷰), 어드벤처</span>
-                  </li>
-                  <li>
-                      <span>개발사: LG Twins</span>
-                  </li>
-              </ol>
-              <p>&nbsp;</p>
-              <p><img src="https://www.nintendo.com/content/dam/noa/en_US/games/switch/d/dead-cells-switch/dead-cells-switch-hero.jpg" referrerpolicy="no-referrer" alt="image"></p>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p>
-              <h3>
-                  <a name="게임-특징" class="md-header-anchor"></a>
-                  <span>게임 특징</span>
-              </h3>
-              <p>&nbsp;</p>
-              <ul>
-                  <li>
-                      <p>
-                          <span>로그-베니아: 상호 연결된 세계를 순차적으로 탐사하십시오. 로그-라이트의 영구적인 죽음이 당신을 위협합니다.</span>
-                      </p>
-                  </li>
-                  <li>
-                      <p>
-                          <span>소울 라이트 전투: 패턴은 FBI(보스)와 군인에게 존재합니다. 독특한 플레이 그리고 무기와 주문!, 당신이 가지고 있는 것을 돌려보내는 것을 잊지 마십시오.</span>
-                      </p>
-                  </li>
-                  <li>
-                      <p>
-                          <span>비선형 진행: 피할 수 없는 보스를 준비하면서 모든 죽음에 대한 새로운 차원의 잠금을 해제하고 발견되지 않은 성을 탐험하십시오.</span>
-                      </p>
-                  </li>
-                  <li>
-                      <p>
-                          <span>탐사: 비밀로 가득한 방, 숨겨진 구질, 매력적인 풍경, 죽음은 새롭게 출발할 수 있습니다.</span>
-                      </p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                  </li>
-              </ul>
-              <p>&nbsp;</p>
-              <h3>
-                  <a name="게임-내용" class="md-header-anchor"></a>
-                  <span>게임 내용</span>
-              </h3>
-              <p>&nbsp;</p>
-              <blockquote>
-                  <p>
-                      <span>로그라이크, 로그라이트, 로그라이크-라이크 그 어느것도 상관없습니다. 당신이 무엇을 원하던 바뀌니깐요!</span>
-                  </p>
-                  <p>
-                      <span>그러나, Zombie Cells에서는, 죽으면 모든 것이 초기화 됩니다. 토르비욘의 기술이죠, 처음에는 도달할 수 없는 지역들이 경로를 가로질러 흩어집니다. 하지만 이수수께끼에 대한 대답은 섬을 돌면서 나타날 것입니다. 당신이 리더가 되어 잊어버린 기술, 주문을 배우십시오. 일단 발견하면, 이 지식은 당신에게 머무르며 목표로 가는 새로운 길을 열어줍니다. 시궁청 냄새에 지쳤습니까? 성벽 위로 향하여 신선한 인간의 세포를 먹으세요!</span>
-                  </p>
-              </blockquote>
-              <p>&nbsp;</p>
-              <p>&nbsp;</p><hr/><p>&nbsp;</p>
-              <h4>
-                  <a name="테스터에게" class="md-header-anchor"></a>
-                  <span>테스터에게</span>
-              </h4>
-              <p>&nbsp;</p>
-              <h4>
-                  <a name="버그-문의-사항-추천-내용이-있으면-언제든지-연락주세요" class="md-header-anchor"></a>
-                  <span>버그, 문의 사항, 추천 내용이 있으면 언제든지 연락주세요.</span>
-              </h4>
-              <p>
-                  <span>해당 이메일로 연락주세요 ( 어떠한 메일도 저에겐 도움이 됩니다.!)</span>
-              </p>
-              <ul>
-                  <li>
-                      <a href='mailto:email@address.com'>
-                          <span>email@address.com</span>
-                      </a>
-                      <span>,
-                      </span>
-                  </li>
-              </ul>
-              <p>
-                  <span></span>
-              </p>
-              <p>
-                  <strong>
-                      <span>감사합니다.</span>
-                  </strong>
-                  <span>😊
-                  </span>
-              </p>
-              <p>&nbsp;</p>
-          </div>
+            <h2>
+                <a name="wtfo-what-the-fuck-out" class="md-header-anchor"></a>
+                <span>WTFO (What The Fuck Out)</span>
+            </h2>
+            <p>&nbsp;</p>
+            <h4>
+                <a name="목차" class="md-header-anchor"></a>
+                <span>목차</span>
+            </h4>
+            <p>
+                <a href='#요약'>
+                    <span>1. 요약</span>
+                </a>
+            </p>
+            <p>
+                <a href='#게임-특징'>
+                    <span>2. 게임 특징</span>
+                </a>
+            </p>
+            <p>
+                <a href='#게임-내용'>
+                    <span>3. 게임 내용</span>
+                </a>
+            </p>
+            <p>
+                <a href='#테스터에게'>
+                    <span>4. 테스터에게</span>
+                </a>
+            </p>
+            <p>&nbsp;</p><hr/><p>&nbsp;</p>
+            <h4>
+                <a name="요약" class="md-header-anchor"></a>
+                <span>요약</span>
+            </h4>
+            <ol>
+                <li>
+                    <span>출시예정: 2019년 2월 17일</span>
+                </li>
+                <li>
+                    <span>장르: 액션, FPS, 4인 협동 플레이, PvE, 호러</span>
+                </li>
+                <li>
+                    <span>개발사: Zexon</span>
+                </li>
+            </ol>
+            <p>&nbsp;</p>
+            <p>
+                <span>![image]</span><img src="https://steamcdn-a.akamaihd.net/steam/apps/493520/capsule_616x353.jpg?t=1603624072" referrerpolicy="no-referrer" alt="Steam의 GTFO"></p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <h3>
+                <a name="게임-특징" class="md-header-anchor"></a>
+                <span>게임 특징</span>
+            </h3>
+            <p>&nbsp;</p>
+            <ul>
+                <li>
+                    <p>
+                        <span>플레이어 4인 협동 PvE 게임플레이에서 팀원과 함께 궁극의 협동 및 소통의 시험에 도전하세요.</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>탐사를 계획하고, 도구를 장착 및 사용하고, 화력을 결합하고, 팀으로 소통하고 협력하세요. 악몽에서 살아남으려면 무엇 하나도 소홀히 해선 안됩니다.</span>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>거대 폐허 시설에서 자신과 팀원에 도움이 될 정보와 자원을 찾아내서 목표를 당성하고 살아남으세요.</span>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </li>
+            </ul>
+            <p>&nbsp;</p>
+            <h3>
+                <a name="게임-내용" class="md-header-anchor"></a>
+                <span>게임 내용</span>
+            </h3>
+            <p>&nbsp;</p>
+            <blockquote>
+                <p>
+                    <span>4인 액션/호러 협동 1인칭 슈팀 게임으로, 도전 정신을 자극 받고 싶은 하드코어 게이머에게 적합합니다. 플레이어들은 죄수 역할을 맡아 팀을 이루고, 엄청난 괴물들이 우글거리는 광활한 폐허 시설을 탐사하며 값진 유물을 획득합니다. 생존에 도움을 줄 무기와 도구, 자원을 획득하고, 당신의 과거에 읽힌 비밀을 파헤치면서 탈출 방법을 알아내세요.</span>
+                </p>
+            </blockquote>
+            <p>&nbsp;</p><hr/><p>&nbsp;</p>
+            <h4>
+                <a name="테스터에게" class="md-header-anchor"></a>
+                <span>테스터에게</span>
+            </h4>
+            <p>&nbsp;</p>
+            <ul>
+                <li>
+                    <p>
+                        <span>안녕하세요 ! 개발자 입니다.</span>
+                    </p>
+                    <p>
+                        <span></span>
+                    </p>
+                    <p>
+                        <strong>
+                            <span>Demo version 2.0 입니다.  많은 테스터들 덕분에 많은 버그를 수정할 수 있게 되었습니다.</span>
+                        </strong>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span>이제 다음 달에 출시를 앞두고 있는데, 조금만 더 도움을 주시면 고맙겠습니다.  😭
+                        </span>
+                    </p>
+                    <p>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span>버그, 문의 사항, 추천 내용이 있으면 언제든지 연락주세요.</span>
+                    </p>
+                    <ul>
+                        <li>
+                            <a href='mailto:email@address.com'>
+                                <span>email@address.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        <span></span>
+                    </p>
+                    <p>
+                        <span>감사합니다.</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
   </div>
 
 </template>
@@ -136,7 +142,7 @@
 <script>
 
 export default {
-name: "zombieSource"
+name: "WTFOSource"
 }
 
 

@@ -2,7 +2,7 @@
   <div>
     <navigation></navigation>
     <chatbot></chatbot>
-    <zombieSource></zombieSource>
+    <WBMZsource></WBMZsource>
  </div>
  </template>
 
@@ -12,15 +12,15 @@
 <script>
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
-import zombieSource from '@/components/zombieGame'
+import WBMZsource from '@/components/WhatBeautifulMyZoo.vue'
 
 export default {
       
-    name: 'zombieCells',
+    name: 'WBMZ',
     components: {
       navigation,
       chatbot,
-      zombieSource,
+      WBMZsource,
     }
 
 }

@@ -19,7 +19,7 @@ nav 개발자: 한지웅
             <div> 2018년 7월 15일 </div>
         </div>
 	<div class="gameEX"> 
-		<div class="gameHeader"> 하트 럼프(Heart Pump) </div>
+		<div class="gameHeader"><a href="/HeartPump"> 하트 펌프(Heart Pump) </a> </div>
 		<div class="gameContent"> 캐주얼, 액션, 리듬, 스포츠, 음악 </div>
 	</div>
       
@@ -33,7 +33,7 @@ nav 개발자: 한지웅
             <div> 2017년 1월 15일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"> Dollar Truck </div>
+                <div class="gameHeader"><a href="/DollarTruck"> Dollar Truck </a> </div>
                 <div class="gameContent"> 시뮬레이션, 운전, 자동차 시뮬레이션, 오픈월드 </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ nav 개발자: 한지웅
             <div> 2019년 2월 17일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"> WTFO(What The Fuck Out)  </div>
+                <div class="gameHeader"><a href="WTFO"> WTFO(What The Fuck Out) </a> </div>
                 <div class="gameContent"> 액션, FPS, 4인 협동 플레이, PvE, 호러 </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ nav 개발자: 한지웅
             <div> 2017년 4월 1일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"> What a beautiful My Zoo(WBMZ) </div>
+                <div class="gameHeader"><a href="/WBMZ">What a beautiful My Zoo(WBMZ) </a></div>
                 <div class="gameContent"> 경영, 시뮬레이션, 건설, 자연, 도시건설, 경제 </div>
         </div>
       </div>

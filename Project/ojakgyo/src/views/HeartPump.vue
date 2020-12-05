@@ -2,7 +2,7 @@
   <div>
     <navigation></navigation>
     <chatbot></chatbot>
-    <zombieSource></zombieSource>
+    <HeartPumpSource></HeartPumpSource>
  </div>
  </template>
 
@@ -12,7 +12,7 @@
 <script>
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
-import zombieSource from '@/components/zombieGame'
+import HeartPumpSource from '@/components/HeartPump'
 
 export default {
       
@@ -20,7 +20,7 @@ export default {
     components: {
       navigation,
       chatbot,
-      zombieSource,
+      HeartPumpSource,
     }
 
 }

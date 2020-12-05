@@ -3,10 +3,10 @@
   <div>
     <div id='write' class=''>
               <h2>
-                  <a name="zombiecells" class="md-header-anchor"></a>
-                  <span>ZombieCells</span>
+                  <a name="What-a-beautiful-My-Zoo" class="md-header-anchor"></a>
+                  <span>What a beautiful My Zoo(WBMZ)</span>
               </h2>
-              <p>&nbsp;</p>
+              <p>&nbsp;</p><br>
               <h4>
                   <a name="목차" class="md-header-anchor"></a>
                   <span>목차</span>
@@ -30,25 +30,25 @@
                   <a href='#테스터에게'>
                       <span>4. 테스터에게</span>
                   </a>
-              </p>
-              <p>&nbsp;</p><hr/><p>&nbsp;</p>
+              </p><br><br>
+              <p>&nbsp;</p><hr/><p>&nbsp;</p><br>
               <h4>
                   <a name="요약" class="md-header-anchor"></a>
                   <span>요약</span>
               </h4>
               <ol>
                   <li>
-                      <span>출시예정: 2020년 2월 22일</span>
+                      <span>출시예정: 2019년 2월 17일</span>
                   </li>
                   <li>
-                      <span>장르: 2D, 로그라이크, 액션, 황스크롤(사이드뷰), 어드벤처</span>
+                      <span>장르:  액션, FPS, 4인 협동 플레이, PvE, 호러</span>
                   </li>
                   <li>
-                      <span>개발사: LG Twins</span>
+                      <span>개발사: PETASS</span>
                   </li>
               </ol>
               <p>&nbsp;</p>
-              <p><img src="https://www.nintendo.com/content/dam/noa/en_US/games/switch/d/dead-cells-switch/dead-cells-switch-hero.jpg" referrerpolicy="no-referrer" alt="image"></p>
+              <p><img src="https://steamcdn-a.akamaihd.net/steam/apps/703080/header.jpg?t=1598353994" referrerpolicy="no-referrer" alt="image"></p>
               <p>&nbsp;</p>
               <p>&nbsp;</p>
               <h3>
@@ -56,31 +56,34 @@
                   <span>게임 특징</span>
               </h3>
               <p>&nbsp;</p>
-              <ul>
-                  <li>
-                      <p>
-                          <span>로그-베니아: 상호 연결된 세계를 순차적으로 탐사하십시오. 로그-라이트의 영구적인 죽음이 당신을 위협합니다.</span>
-                      </p>
-                  </li>
-                  <li>
-                      <p>
-                          <span>소울 라이트 전투: 패턴은 FBI(보스)와 군인에게 존재합니다. 독특한 플레이 그리고 무기와 주문!, 당신이 가지고 있는 것을 돌려보내는 것을 잊지 마십시오.</span>
-                      </p>
-                  </li>
-                  <li>
-                      <p>
-                          <span>비선형 진행: 피할 수 없는 보스를 준비하면서 모든 죽음에 대한 새로운 차원의 잠금을 해제하고 발견되지 않은 성을 탐험하십시오.</span>
-                      </p>
-                  </li>
-                  <li>
-                      <p>
-                          <span>탐사: 비밀로 가득한 방, 숨겨진 구질, 매력적인 풍경, 죽음은 새롭게 출발할 수 있습니다.</span>
-                      </p>
-                      <p>&nbsp;</p>
-                      <p>&nbsp;</p>
-                  </li>
-              </ul>
+              <p>
+                  <strong>
+                      <span>1. 야생과 시뮬레이션의 만남</span>
+                  </strong>
+              </p>
+              <p>
+                  <span>놀라운 동물의 세계를 만나 보세요. 장난꾸러기 새끼 사자부터 힘센 코끼리까지 나만의 동물원에 등장하는 모든 동물은 외모와 성격이 제각각 다른 생각과 감정을 지닌 존재들입니다. 동물들의 자연 속 집과 닮은 편안한 서식지를 건설하고, 모든 종의 습성을 연구해 동물들이 잘 지낼 수 있도록 관리하고, 동물들이 번식을 통해 유전자를 후세에 물려줄 수 있도록 도와 주세요.</span>
+              </p>
               <p>&nbsp;</p>
+              <p>
+                  <strong>
+                      <span>2. 의미 있는 보살핌</span>
+                  </strong>
+              </p>
+              <p>
+                  <span>여러분의 결정에 일일이 반응하는 이 살아 숨쉬는 놀라운 세계를 잘 보살피세요. 큰 그림에 집중하든, 세세한 부분까지 직접 관리하든 여러분의 몫입니다. 특별한 관람관으로 방문객에게 즐거움을 선사하고, 새로운 연구로 동물원을 발전시키고, 새로운 세대의 동물들을 야생으로 돌려 보내세요. 동물들의 복지와 보존이 우선인 세계에서 여러분의 선택은 정말 중요합니다.</span>
+              </p>
+              <p>&nbsp;</p>
+              <p>
+                  <strong>
+                      <span>3. 무한한 창의력</span>
+                  </strong>
+              </p>
+              <p>
+                  <span>나만의 동물원의 강력한 건설 도구들만 있으면 어렵지 않게 특별한 동물원을 완성할 수 있습니다. 여러분의 결정 하나하나가 동물들의 삶과 방문객의 경험에 영향을 미칩니다. 호수와 강을 파고, 언덕과 산을 쌓고, 길과 동굴을 만들면서 마음껏 상상력을 발휘해 보세요. 다양한 테마와 수많은 건설 부품들로 세상에 하나뿐인 멋진 나만의 동물원을 완성하세요.</span>
+              </p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p><br><br>
               <h3>
                   <a name="게임-내용" class="md-header-anchor"></a>
                   <span>게임 내용</span>
@@ -88,47 +91,49 @@
               <p>&nbsp;</p>
               <blockquote>
                   <p>
-                      <span>로그라이크, 로그라이트, 로그라이크-라이크 그 어느것도 상관없습니다. 당신이 무엇을 원하던 바뀌니깐요!</span>
+                      <span>나만의 동물원의 강력한 건설 도구들만 있으면 어렵지 않게 특별한 동물원을 완성할 수 있습니다. 여러분의 결정 하나하나가 동물들의 삶과 방문객의 경험에 영향을 미칩니다. 호수와 강을 파고, 언덕과 산을 쌓고, 길과 동굴을 만들면서 마음껏 상상력을 발휘해 보세요. 다양한 테마와 수많은 건설 부품들로 세상에 하나뿐인 멋진 나만의 동물원을 완성하세요.</span>
                   </p>
-                  <p>
-                      <span>그러나, Zombie Cells에서는, 죽으면 모든 것이 초기화 됩니다. 토르비욘의 기술이죠, 처음에는 도달할 수 없는 지역들이 경로를 가로질러 흩어집니다. 하지만 이수수께끼에 대한 대답은 섬을 돌면서 나타날 것입니다. 당신이 리더가 되어 잊어버린 기술, 주문을 배우십시오. 일단 발견하면, 이 지식은 당신에게 머무르며 목표로 가는 새로운 길을 열어줍니다. 시궁청 냄새에 지쳤습니까? 성벽 위로 향하여 신선한 인간의 세포를 먹으세요!</span>
-                  </p>
-              </blockquote>
+              </blockquote><br><br>
               <p>&nbsp;</p>
-              <p>&nbsp;</p><hr/><p>&nbsp;</p>
+              <p>&nbsp;</p><hr/><p>&nbsp;</p><br><br>
               <h4>
                   <a name="테스터에게" class="md-header-anchor"></a>
                   <span>테스터에게</span>
               </h4>
               <p>&nbsp;</p>
-              <h4>
-                  <a name="버그-문의-사항-추천-내용이-있으면-언제든지-연락주세요" class="md-header-anchor"></a>
-                  <span>버그, 문의 사항, 추천 내용이 있으면 언제든지 연락주세요.</span>
-              </h4>
               <p>
-                  <span>해당 이메일로 연락주세요 ( 어떠한 메일도 저에겐 도움이 됩니다.!)</span>
-              </p>
-              <ul>
-                  <li>
-                      <a href='mailto:email@address.com'>
-                          <span>email@address.com</span>
-                      </a>
-                      <span>,
-                      </span>
-                  </li>
-              </ul>
-              <p>
-                  <span></span>
+                  <strong>
+                      <span>안녕하세요.  WBMZ 개발자 입니다.</span>
+                  </strong>
               </p>
               <p>
                   <strong>
-                      <span>감사합니다.</span>
+                      <span>테스터분들에게 피드백고자 글을 올립니다</span>
                   </strong>
-                  <span>😊
-                  </span>
               </p>
               <p>&nbsp;</p>
+              <blockquote>
+                  <p>
+                      <span>해당 테스트를 해주고, 메일을 보내주는 분들께 소정의 상품도 드리고 있으니, 받은 참여 부탁드립니다.</span>
+                  </p>
+              </blockquote>
+              <p>&nbsp;</p>
+              <p>
+                  <strong>
+                      <span>해당 게임에 대해 문의사항, 추가할 내용, 버그 내용을 이메일로 보내주면 감사하겠습니다.!</span>
+                  </strong>
+              </p>
+              <ul>
+                  <li>
+                      <a href='mailto:email@mailadress.com' target='_blank' class='url'>email@mailadress.com</a>
+                  </li>
+              </ul>
+              <p>&nbsp;</p>
+              <p>
+                  <span>하나하나의 소중한 피드백 기다리고 있겠습니다.</span>
+              </p>
           </div>
+
   </div>
 
 </template>
@@ -136,7 +141,7 @@
 <script>
 
 export default {
-name: "zombieSource"
+name: "WBMZSource"
 }
 
 
