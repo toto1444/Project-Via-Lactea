@@ -1,12 +1,10 @@
 <template>
 
 	<div>
-		copyright
-	</div>
+  </div>
 </template>
 
 <script>
-
   export default {
     name: "copyright"
   }
