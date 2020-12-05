@@ -6,6 +6,7 @@
     <rank></rank>
     <src></src>
     <copyright></copyright>
+    <startScreenSource></startScreenSource>
     <chatbot></chatbot>
   </div>
 </template>
@@ -19,7 +20,7 @@ import srcHeader from '@/components/header.vue'
 import rank from '@/components/rank.vue'
 import src from '@/components/source.vue'
 import copyright from '@/components/copyright.vue'
-
+import startScreenSource from '@/components/startScreen.vue'
 
 
 export default {
@@ -32,7 +33,8 @@ export default {
     srcHeader,
     rank,
     src,
-    copyright
+    copyright,
+    startScreenSource
   }
 }
 </script>

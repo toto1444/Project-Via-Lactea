@@ -6,8 +6,7 @@
 - 스토리 보드 
 
 버그 제거 안아현
-
-- >
+-->
 
 <template>
   <div>
@@ -15,12 +14,22 @@
     <chatbot></chatbot>
     <zombieSource></zombieSource>
     <commentSource></commentSource>
+    <VueLikeDislikeButtonsSource></VueLikeDislikeButtonsSource>
+    <vue-like-dislike-buttons
+      :likes="likes"
+      :dislikes="dislikes"
+      :likeChecked="likeChecked"
+      :dislikeChecked="dislikeChecked"
+      @like="like"
+      @dislike="dislike"
+    />
     <comment-grid
-  baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
-  apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
-  nodeName="ojacgyo">
-</comment-grid>
- </div>
+    baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
+    apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
+    nodeName="ojacgyo">
+    </comment-grid>
+
+  </div>
  </template>
 
 
@@ -29,7 +38,9 @@
 <script>
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
-import zombieSource from '@/components/zombieGame'
+import zombieSource from '@/components/zombieGame.vue'
+import VueLikeDislikeButtons from 'vue-like-dislike-buttons'
+
 
 export default {
       
@@ -38,8 +49,24 @@ export default {
       navigation,
       chatbot,
       zombieSource,
+      VueLikeDislikeButtons
+    },
+    data() {
+    return {
+      likes: 500,
+      dislikes: 0,
+      likeChecked: false,
+      dislikeChecked: false
+    };
+  },
+  methods: {
+    like() {
+      this.likes += 1;
+    },
+    dislike() {
+      this.dislikes -= 1;
     }
-
+  }
 }
 
 </script>

@@ -21,6 +21,7 @@
     "vue-bot-ui": "^0.2.4",
     "vue-comment-grid": "^1.0.12",
     "vue-disqus": "^4.0.1",
+    "vue-like-dislike-buttons": "^0.2.4",
     "vue-router": "^3.4.9",
     "vuex": "^3.6.0"
   },
