@@ -3,11 +3,16 @@
     <navigation></navigation>
     <chatbot></chatbot>
     <DollarTruckSource></DollarTruckSource>
- </div>
+    <comment-grid
+  baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
+  apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
+  nodeName="ojacgyo">
+  </comment-grid>
+  </div>
  </template>
 
 
-
+    <script src="https://www.powr.io/powr.js?platform=vuejs"></script>
 
 <script>
 import navigation from '@/components/nav.vue'
@@ -20,7 +25,7 @@ export default {
     components: {
       navigation,
       chatbot,
-      DollarTruckSource
+      DollarTruckSource,
     }
 
 }

@@ -3,6 +3,11 @@
     <navigation></navigation>
     <chatbot></chatbot>
     <HeartPumpSource></HeartPumpSource>
+    <comment-grid
+  baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
+  apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
+  nodeName="ojacgyo">
+</comment-grid>
  </div>
  </template>
 

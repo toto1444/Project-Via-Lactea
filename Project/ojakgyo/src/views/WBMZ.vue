@@ -3,6 +3,11 @@
     <navigation></navigation>
     <chatbot></chatbot>
     <WBMZsource></WBMZsource>
+    <comment-grid
+  baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
+  apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
+  nodeName="ojacgyo">
+</comment-grid>
  </div>
  </template>
 

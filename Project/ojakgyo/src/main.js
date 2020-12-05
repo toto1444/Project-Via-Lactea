@@ -14,9 +14,16 @@ import App from './App.vue'
 import router from './router'
 import VueCompositionAPI from '@vue/composition-api'
 import store from './store'
+import VueDisqus from 'vue-disqus'
+import CommentGrid from 'vue-comment-grid'
+
+Vue.use(CommentGrid)
+
 
 Vue.use(VueCompositionAPI)
-
+Vue.use(VueDisqus, {
+  shortname: 'ojacgyo'
+})
 Vue.config.productionTip = false
 
 new Vue({
