@@ -8,7 +8,7 @@
 -->
 
 <template>
-    <div class="comment">
+    <div>
         <h2>What's Ojakgyo?</h2>
         <br>
         <!-- 팀 오작교 소개 -->
@@ -50,7 +50,18 @@ export default {
 </script>
 
 <style scoped>
-.p{
+@import url('https://fonts.googleapis.com/css?family=Sunflower:Light');
+h2, h3{
     align-content: center;
+    margin: 40px 0 0;
+    font-family: Sunflower;
+}
+p {
+  background : #73c8b7;
+  text-align : center;
+  font-weight : bold;
+  font-size: 1.5em;
+  padding: 2px;
+  font-family: Sunflower;
 }
 </style>
