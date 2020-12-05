@@ -76,14 +76,14 @@ nav 개발자: 한지웅
                 <div class="gameContent"> 경영, 시뮬레이션, 건설, 자연, 도시건설, 경제 </div>
         </div>
       </div>
-            <div class="game">
-        <div class="source1">
-          <div class="indImg">
-            <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
-          </div>
-            <div> Sylvanas </div>
-            <div> 2015년 7월 15일 </div>
-        </div>
+      <div class="gameFinal">
+              <div class="source1">
+                <div class="indImg">
+                  <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
+                </div>
+                  <div> Sylvanas </div>
+                  <div> 2015년 7월 15일 </div>
+              </div>
         <div class="gameEX">
                 <div class="gameHeader"> Climb Guys</div>
                 <div class="gameContent"> 멀티플레이어, 유머, 배틀 로얄, 온라인 협동  </div>
@@ -107,6 +107,14 @@ export default {
   border-top: 1px solid #f0f0f5;
   background-color: #f6f8fa;
   padding-bottom: 20px;
+}
+.gameFinal {
+  border-top: 1px solid #f0f0f5;
+  box-shadow: 0 4px 2px -2px #bfbfbf;
+
+  background-color: #f6f8fa;
+  padding-bottom: 20px;
+
 }
 .gameHeader {
   color: #24292E;
