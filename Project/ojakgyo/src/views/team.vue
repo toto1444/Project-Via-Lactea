@@ -7,7 +7,8 @@
 ***
 -->
 
-<template class="pt-5 circle-1">
+<template>
+<section class="pt-5 circle-1">
     <div>
         <div class="team-box container pb-5 pt-5">
             <h1 class="team-head">Team "Ojakgyo"</h1>
@@ -182,6 +183,7 @@
         </div>
         </div>
     </div>
+</section>
 </template>
 
 <script>
