@@ -5,9 +5,13 @@
     <srcHeader></srcHeader>
     <rank></rank>
     <src></src>
-    <copyright></copyright>
-    <startScreenSource></startScreenSource>
+    <startScreenSource></startScreenSource><br>
     <chatbot></chatbot>
+    <VueRealWave wavePosition="bottom" waveBackgoundColor="#fcfcfc" :waveColor="['#3ab2c4','#4db9bf','#60c0bb','#73c8b7']" :waveLayerCount="3" :space="100" :waveHeight="20" :waveGap="50">
+    <div>
+    <copyrightSource></copyrightSource>      
+    </div>
+    </VueRealWave>
   </div>
 </template>
 
@@ -19,8 +23,9 @@ import chatbot from '@/components/chatbot.vue'
 import srcHeader from '@/components/header.vue'
 import rank from '@/components/rank.vue'
 import src from '@/components/source.vue'
-import copyright from '@/components/copyright.vue'
+import copyrightSource from '@/components/copyright.vue'
 import startScreenSource from '@/components/startScreen.vue'
+import VueRealWave from 'vue-real-wave'
 
 
 export default {
@@ -33,8 +38,9 @@ export default {
     srcHeader,
     rank,
     src,
-    copyright,
-    startScreenSource
+    copyrightSource,
+    startScreenSource,
+    VueRealWave
   }
 }
 </script>
@@ -45,4 +51,5 @@ export default {
   margin: 0px;
   padding: 0px;
 }
+
 </style>

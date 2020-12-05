@@ -141,9 +141,11 @@ name: "zombieSource"
 
 </script>
 <style scope>
+
 html {
     overflow-x: initial !important;
 }
+
 :root {
     --bg-color: #ffffff;
     --text-color: #333333;
