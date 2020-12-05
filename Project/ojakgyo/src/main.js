@@ -18,6 +18,7 @@ import VueDisqus from 'vue-disqus'
 import CommentGrid from 'vue-comment-grid'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+
 Vue.use(CommentGrid)
 Vue.use(VueCompositionAPI)
 Vue.use(VueDisqus, {

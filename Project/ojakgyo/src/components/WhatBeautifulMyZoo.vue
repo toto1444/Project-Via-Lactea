@@ -147,9 +147,13 @@ name: "WBMZSource"
 
 </script>
 <style scope>
+
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap');
+
 html {
     overflow-x: initial !important;
 }
+
 :root {
     --bg-color: #ffffff;
     --text-color: #333333;
@@ -157,6 +161,7 @@ html {
     --select-text-font-color: auto;
     --monospace: "Lucida Console", Consolas, "Courier", monospace;
 }
+
 html {
     font-size: 14px;
     background-color: var(--bg-color);
@@ -164,6 +169,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
+
 body {
     margin: 0;
     padding: 0;

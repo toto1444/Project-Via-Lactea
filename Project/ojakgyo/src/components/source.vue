@@ -18,10 +18,10 @@ nav 개발자: 한지웅
             <div> Ragnaros </div>
             <div> 2018년 7월 15일 </div>
         </div>
-	<div class="gameEX"> 
-		<div class="gameHeader"><a href="/HeartPump"> 하트 펌프(Heart Pump) </a> </div>
-		<div class="gameContent"> 캐주얼, 액션, 리듬, 스포츠, 음악 </div>
-	</div>
+        <div class="gameEX"> 
+          <div class="gameHeader"><a href="/HeartPump"> 하트 펌프(Heart Pump) </a> </div>
+          <div class="gameContent"> 캐주얼, 액션, 리듬, 스포츠, 음악 </div>
+        </div>
       
       </div>
       <div class="game">
