@@ -28,10 +28,9 @@ nav 개발자: 한지웅
       </div>
       <div class="nav2">
         <ul class="nav2_nav">
-          <li :class='{ "selected": selected === 0 }' @click='changeSelected(0)'> <i href="../views/whatsojakyo.vue"></i>What's Ojakgyo?</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href="../views/team.vue"></i>Team</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href=""></i>Lanking</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href=""></i>미정</li>
+          <li :class='{ "selected": selected === 0 }' @click='changeSelected(0)'> <i href="../views/whatsojakgyo.vue"></i>What's Ojakgyo?</li>
+          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href="../views/team.vue"></i>About Team</li>
+          <li :class='{ "selected": selected === 2 }' @click='changeSelected(2)'> <i href=""></i>Ranking</li>
           <div class='select-highlight'/>
         </ul>
       </div>

@@ -45,7 +45,7 @@
 
 <script>
 export default {
-    name : "whyojakgyo"
+    name : "whatsojakgyo"
 }
 </script>
 
