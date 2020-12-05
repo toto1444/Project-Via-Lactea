@@ -2,6 +2,7 @@
   "dependencies": {
     "@vue/cli-service": "^4.5.9",
     "vue-comment-grid": "^1.0.12",
-    "vue-disqus": "^4.0.1"
+    "vue-disqus": "^4.0.1",
+    "vue-like-dislike-buttons": "^0.2.4"
   }
 }
