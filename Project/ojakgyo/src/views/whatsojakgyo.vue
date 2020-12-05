@@ -1,13 +1,15 @@
 <!--
 ***    
 ***     스토리 및 내용 구성 담당
+***     이 페이지는 팀 오작교를 소개하는 페이지입니다.
 ***     @author     강성룡  kangsungryong
 ***     @edit       2020-12-05
 ***
 -->
+
 <template>
     <div class="comment">
-        <h2>Why Ojakgyo?</h2>
+        <h2>What's Ojakgyo?</h2>
         <br>
         <!-- 팀 오작교 소개 -->
         <p>Team 'Ojakgyo'(오작교)는 인디 게임 개발자와 게임 테스터간의 다리를 놓아주는 \n
@@ -48,11 +50,7 @@ export default {
 </script>
 
 <style scoped>
-.h2{
-    
-}
 .p{
     align-content: center;
-
 }
 </style>
