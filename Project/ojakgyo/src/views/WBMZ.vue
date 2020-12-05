@@ -14,6 +14,14 @@
     <navigation></navigation>
     <chatbot></chatbot>
     <WBMZsource></WBMZsource>
+    <vue-like-dislike-buttons
+      :likes="likes"
+      :dislikes="dislikes"
+      :likeChecked="likeChecked"
+      :dislikeChecked="dislikeChecked"
+      @like="like"
+      @dislike="dislike"
+    />
     <comment-grid
   baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
   apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
@@ -29,6 +37,7 @@
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
 import WBMZsource from '@/components/WhatBeautifulMyZoo.vue'
+import VueLikeDislikeButtons from "vue-like-dislike-buttons";
 
 export default {
       
@@ -37,9 +46,25 @@ export default {
       navigation,
       chatbot,
       WBMZsource,
+      VueLikeDislikeButtons
+    },
+    data() {
+    return {
+      likes: 500,
+      dislikes: -10,
+      likeChecked: false,
+      dislikeChecked: false
+    };
+  },
+  methods: {
+    like() {
+      this.likes += 1;
+    },
+    dislike() {
+      this.dislikes -= 1;
     }
-
-}
+  }
+};
 
 </script>
 

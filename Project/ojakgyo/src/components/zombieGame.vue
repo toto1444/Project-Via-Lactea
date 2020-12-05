@@ -1,5 +1,4 @@
 <template>
-
   <div>
     <div id='write' class=''>
               <h2>

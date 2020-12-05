@@ -13,6 +13,14 @@
     <navigation></navigation>
     <chatbot></chatbot>
     <WTFOSource></WTFOSource>
+    <vue-like-dislike-buttons
+      :likes="likes"
+      :dislikes="dislikes"
+      :likeChecked="likeChecked"
+      :dislikeChecked="dislikeChecked"
+      @like="like"
+      @dislike="dislike"
+    />
     <comment-grid
   baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
   apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
@@ -28,6 +36,7 @@
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
 import WTFOSource from '@/components/WTFO.vue'
+import VueLikeDislikeButtons from "vue-like-dislike-buttons";
 
 export default {
       
@@ -36,9 +45,26 @@ export default {
       navigation,
       chatbot,
       WTFOSource,
+      VueLikeDislikeButtons
+    },
+    data() {
+    return {
+      likes: 0,
+      dislikes: 0,
+      likeChecked: false,
+      dislikeChecked: false
     }
-
+  },
+  methods: {
+    like() {
+      this.likes += 1;
+    },
+    dislike() {
+      this.dislikes += 1;
+    }
+  }
 }
+
 
 </script>
 

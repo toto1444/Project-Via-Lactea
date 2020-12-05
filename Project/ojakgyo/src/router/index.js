@@ -41,6 +41,16 @@ const routes = [
     path: '/DollarTruck',
     name: 'DollarTruck',
     component: () => import('../views/DollarTruck.vue')
+  },
+  {
+    path: '/whatsojakgyo',
+    name: 'whatsojakgyo',
+    component: () => import ('../views/whatsojakgyo.vue')
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component: () => import ('../views/team.vue')
   }
 ]
 

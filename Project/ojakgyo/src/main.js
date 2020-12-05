@@ -23,6 +23,10 @@ Vue.use(VueCompositionAPI)
 Vue.use(VueDisqus, {
   shortname: 'ojacgyo'
 })
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/jiung
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false

@@ -11,11 +11,19 @@
     <div>
         <h2>Team "Ojakgyo"</h2>
         <br>
+<<<<<<< HEAD
         <ui>
             <ll>한지웅(HanJiUng/HanTimJang)</ll>
             <li>역할 : 메인 개발 및 팀장</li>
             <li>코멘터리 : </li>
         </ui>
+=======
+        <ul>
+            <li>한지웅(HanJiUng/HanTimJang)</li>
+            <li>역할 : 메인 개발 및 팀장</li>
+            <li>코멘터리 : </li>
+        </ul>
+>>>>>>> origin/jiung
         <ul>
             <li>안아현(AnAhHyeon/toto1444)</li>
             <li>역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</li>
