@@ -69,7 +69,7 @@ export default {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 0;
   margin-bottom: 0;
 }
 .row::before,
@@ -96,14 +96,10 @@ export default {
     width: 100%;
     display: table-footer-group;
   }
-  .sidebar-about {
-    display: none;
-  }
   .eight-twelve {
     display: table-header-group;
   }
 }
-
 .sidebar-about,
 .blog-post {
   border: 1px solid lightgray;
@@ -116,27 +112,17 @@ export default {
 .blog-post {
   background-color: rgba(225, 225, 225, 0.1);
 }
-.sidebar-about {
-  padding-top: 10px;
-  margin-top: 0px;
-}
 .blog-row {
   text-decoration: none;
+  font-family: Sunflower;
 }
 .entry-title {
-  font-weight: 3000;
-  font-family: "sunflower";
+  font-weight: 700;
+  font-family: Sunflower;
 }
 h2 {
   position: relative;
   text-decoration: none;
-  font-family: "Sunflower";
-}
-.underlined-example {
-  position: relative;
-  color: #222;
-  text-decoration: none;
-  font-size: 24px;
-  display: inline-block;
+  font-family: Sunflower;
 }
 </style>
