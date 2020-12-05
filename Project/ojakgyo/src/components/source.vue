@@ -13,7 +13,7 @@ nav 개발자: 한지웅
       <div class="game">
         <div class="source1">
           <div class="indImg"> 
-            <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
+            <img src="../assets/user1.png" alt="" width="24" height="32"/>
           </div>
             <div> Ragnaros </div>
             <div> 2018년 7월 15일 </div>
@@ -27,7 +27,7 @@ nav 개발자: 한지웅
       <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
+            <img src="../assets/user2.png" alt="" width="24" height="32"/>
           </div>
             <div> SBS Software </div>
             <div> 2017년 1월 15일 </div>
@@ -40,7 +40,7 @@ nav 개발자: 한지웅
       <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
+            <img src="../assets/user3.png" alt="" width="24" height="32"/>
           </div>
             <div> LG Twins </div>
             <div> 2020년 2월 22일 </div>
@@ -53,7 +53,7 @@ nav 개발자: 한지웅
       <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
+            <img src="../assets/user4.png" alt="" width="24" height="32"/>
           </div>
             <div> Zexon </div>
             <div> 2019년 2월 17일 </div>
@@ -66,7 +66,7 @@ nav 개발자: 한지웅
             <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/chatbot.png" alt="" width="24" height="32"/>
+            <img src="../assets/user5.png" alt="" width="24" height="32"/>
           </div>
             <div> PETASS </div>
             <div> 2017년 4월 1일 </div>
