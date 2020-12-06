@@ -118,7 +118,7 @@ export default {
 }
 
 .nav1 {
-  background-color: #FAFBFC;
+  background-color: #fcfcfc;
 }
 
 .nav2{
@@ -172,7 +172,7 @@ ul.nav2_nav{
   padding: 12px 8px 8px 20px;
   text-decoration: None;
   display: block;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #fcfcfc;
   margin-right: 17px;
   margin-left: 8px;
 }
@@ -181,7 +181,7 @@ ul.nav2_nav{
   padding: 12px 8px 8px 5px;
   text-decoration: None;
   display: block;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #fcfcfc;
   margin-right: 17px;
   margin-left: 8px;
 }
