@@ -48,9 +48,9 @@ const routes = [
     component: () => import('../views/DollarTruck.vue')
   },
   {
-    path: '/whatsojakgyo',
-    name: 'whatsojakgyo',
-    component: () => import ('../views/whatsojakgyo.vue')
+    path: '/whatsojacgyo',
+    name: 'whatsojacgyo',
+    component: () => import ('../views/whatsojacgyo.vue')
   },
   {
     path: '/team',

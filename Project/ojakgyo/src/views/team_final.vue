@@ -1,259 +1,8 @@
-<template>
-  <div id='write' class=''>
-	<p>
-		&nbsp;
-	</p>
-	<h2><a name="팀-역할-분담" class="md-header-anchor"></a><span>팀 역할 분담</span></h2>
-	<p>
-		&nbsp;
-	</p>
-	<h4><a name="한지웅-hanjiung--hanjiung-🙂" class="md-header-anchor"></a><span>한지웅 (Hanjiung / Hanjiung) 🙂</span></h4>
-	<ol>
-		<li><span>업무</span></li>
-	</ol>
-	<ul>
-		<li><span> 메인 개발 및 팀장</span></li><br>
-	</ul>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='2'>
-		<li><span>코멘터리</span></li>
-	</ol>
-	<blockquote>
-		<p>
-			<span>아쉬운데?</span>
-		</p>
-	</blockquote><br>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='3'>
-		<li><span>전하고 싶은 코딩</span></li>
-	</ol>
-	<pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="python">
-		<div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
-			<div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
-				<textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea>
-			</div>
-			<div class="CodeMirror-scrollbar-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-gutter-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-scroll" tabindex="-1">
-				<div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
-					<div style="position: relative; top: 0px;">
-						<div class="CodeMirror-lines" role="presentation">
-							<div role="presentation" style="position: relative; outline: none;">
-								<div class="CodeMirror-measure">
-									<pre>
-										x
-									</pre>
-								</div>
-								<div class="CodeMirror-measure">
-								</div>
-								<div style="position: relative; z-index: 1;">
-								</div>
-								<div class="CodeMirror-code" role="presentation" style="">
-									<div class="CodeMirror-activeline" style="position: relative;">
-										<div class="CodeMirror-activeline-background CodeMirror-linebackground">
-										</div>
-										<div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;">
-										</div>
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">import </span><span class="cm-variable"> tensorflow </span><span class="cm-keyword">as </span><span class="cm-variable">tf</span></span>
-										</pre>
-									</div>
-									<pre class=" CodeMirror-line " role="presentation">
-										<span role="presentation" style="padding-right: 0.1px;"><span cm-text=""></span></span>
-									</pre>
-									<div class="" style="position: relative;">
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"good!"</span>)</span>
-										</pre>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;">
-				</div>
-				<div class="CodeMirror-gutters" style="display: none; height: 57px;">
-				</div>
-			</div>
-		</div>
-	</pre>
-	<p>
-		&nbsp;
-	</p>
-<p>
-		&nbsp;
-	</p><br>
-	<h4><a name="안아현-ahhyeon-an--toto1444-🌈" class="md-header-anchor"></a><span>안아현 (AhHyeon An / toto1444) 🌈 </span></h4>
-	<ol>
-		<li><span>역할</span></li>
-	</ol>
-	<ul>
-		<li>
-		<p>
-			<span>디자이너 및 버그 리폿, 프로젝트 병합 관리 및 개발자</span>
-		</p><br>
-		<p>
-			&nbsp;
-		</p>
-		</li>
-	</ul>
-	<ol start='2'>
-		<li><span>코멘터리</span></li>
-	</ol>
-	<blockquote>
-		<p>
-			<span>네?</span>
-		</p>
-	</blockquote><br>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='3'>
-		<li><span>전하고 싶은 코딩</span></li>
-	</ol>
-	<pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false">
-		<div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
-			<div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
-				<textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea>
-			</div>
-			<div class="CodeMirror-scrollbar-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-gutter-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-scroll" tabindex="-1">
-				<div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
-					<div style="position: relative; top: 0px;">
-						<div class="CodeMirror-lines" role="presentation">
-							<div role="presentation" style="position: relative; outline: none;">
-								<div class="CodeMirror-measure">
-									<pre>
-										x
-									</pre>
-								</div>
-								<div class="CodeMirror-measure">
-								</div>
-								<div style="position: relative; z-index: 1;">
-								</div>
-								<div class="CodeMirror-code" role="presentation">
-									<div class="CodeMirror-activeline" style="position: relative;">
-										<div class="CodeMirror-activeline-background CodeMirror-linebackground">
-										</div>
-										<div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;">
-										</div>
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">'\n'</span>.<span class="cm-property">join</span>([<span class="cm-string">''</span>.<span class="cm-property">join</span>([(<span class="cm-string">'Love'</span>[(<span class="cm-variable">x</span><span class="cm-operator">-</span><span class="cm-variable">y</span>) <span class="cm-operator">%</span><span class="cm-builtin">len</span>(<span class="cm-string">'Love'</span>)] <span class="cm-keyword">if</span> ((<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">+</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">-</span><span class="cm-number">1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span><span class="cm-operator">-</span>(<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">*</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span><span class="cm-operator">&lt;</span>= <span class="cm-number">0</span><span class="cm-keyword">else</span><span class="cm-string">' '</span>) <span class="cm-keyword">for</span><span class="cm-variable">x</span><span class="cm-keyword">in</span><span class="cm-builtin">range</span>(<span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-number">30</span>)]) <span class="cm-keyword">for</span><span class="cm-variable">y</span><span class="cm-keyword">in</span><span class="cm-builtin">range</span>(<span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">1</span>)]))</span>
-										</pre>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;">
-				</div>
-				<div class="CodeMirror-gutters" style="display: none; height: 57px;">
-				</div>
-			</div>
-		</div>
-	</pre>
-	<p>
-		&nbsp;
-	</p>
-	<p>
-		&nbsp;
-	</p>
-	<p>
-		&nbsp;
-	</p><br>
-	<h4><a name="강성룡-sungryong-kang--ryan-🐶" class="md-header-anchor"></a><span>강성룡 (SungRyong Kang / Ryan) 🐶</span></h4>
-	<ol>
-		<li><span>업무</span></li>
-	</ol>
-	<ul>
-		<li><span>자료 조사 및 시나리오 관리 및 개발자</span></li><br>
-	</ul>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='2'>
-		<li><span>코멘터리</span></li>
-	</ol>
-	<blockquote>
-		<p>
-			<span>에너지 드링크는 제 친구이자 동반자 입니다.</span>
-		</p>
-	</blockquote>
-	<p>
-		&nbsp;
-	</p><br>
-	<ol start='3'>
-		<li><span>전하고 싶은 코딩</span></li>
-	</ol>
-	<pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false">
-		<div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
-			<div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
-				<textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea>
-			</div>
-			<div class="CodeMirror-scrollbar-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-gutter-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-scroll" tabindex="-1">
-				<div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
-					<div style="position: relative; top: 0px;">
-						<div class="CodeMirror-lines" role="presentation">
-							<div role="presentation" style="position: relative; outline: none;">
-								<div class="CodeMirror-measure">
-									<pre>
-										<span>xxxxxxxxxx</span>
-									</pre>
-								</div>
-								<div class="CodeMirror-measure">
-								</div>
-								<div style="position: relative; z-index: 1;">
-								</div>
-								<div class="CodeMirror-code" role="presentation">
-									<div class="CodeMirror-activeline" style="position: relative;">
-										<div class="CodeMirror-activeline-background CodeMirror-linebackground">
-										</div>
-										<div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;">
-										</div>
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"살려주세요"</span>)</span>
-										</pre>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 19px;">
-				</div>
-				<div class="CodeMirror-gutters" style="display: none; height: 19px;">
-				</div>
-			</div>
-		</div>
-	</pre>
-	<p>
-		&nbsp;
-	</p>
-</div>
-</template>
-<script> 
-
-export default {
-  name: "team"
-}
-</script>
-<style type='text/css'>
-html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title></title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
 iframe { margin: auto; }
@@ -408,6 +157,8 @@ mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
 @media print { 
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
+
+
 .CodeMirror { height: auto; }
 .CodeMirror.cm-s-inner { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit inherit; background-repeat: inherit inherit; }
 .CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
@@ -479,6 +230,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
 @media print { 
   .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
 }
+
+
 :root {
     --side-bar-bg-color: #fff;
     --control-text-color: #777;
@@ -486,9 +239,11 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
     --drake-accent: #e95f59;
     --drake-highlight: #d63200;
 }
+
 html {
     font-size: 12px;
 }
+
 body {
     font-family: "JetBrains Mono", Menlo, Consolas !important;
     color: #333333;
@@ -498,32 +253,40 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
 img {
     border-radius: 2px;
 }
+
 #write {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 30px 100px;
 }
+
 #write p {
     line-height: 1.6rem;
     word-spacing: .05rem;
 }
+
 #write > ul:first-child,
 #write > ol:first-child {
     margin-top: 30px;
 }
+
 body > *:first-child {
     margin-top: 0 !important;
 }
+
 body > *:last-child {
     margin-bottom: 0 !important;
 }
+
 a {
     color: var(--drake-highlight);
     padding: 0 2px;
 }
+
 h1,
 h2,
 h3,
@@ -538,6 +301,7 @@ h6 {
     cursor: text;
     color: #273849;
 }
+
 h1:hover a.anchor,
 h2:hover a.anchor,
 h3:hover a.anchor,
@@ -546,34 +310,43 @@ h5:hover a.anchor,
 h6:hover a.anchor {
     text-decoration: none;
 }
+
+
 h1 tt,
 h1 code {
     font-size: inherit !important;
 }
+
 h2 tt,
 h2 code {
     font-size: inherit !important;
 }
+
 h3 tt,
 h3 code {
     font-size: inherit !important;
 }
+
 h4 tt,
 h4 code {
     font-size: inherit !important;
 }
+
 h5 tt,
 h5 code {
     font-size: inherit !important;
 }
+
 h6 tt,
 h6 code {
     font-size: inherit !important;
 }
+
 h2 a,
 h3 a {
     color: #34495e;
 }
+
 h1 {
     padding-bottom: .4rem;
     font-size: 2.2rem;
@@ -581,6 +354,7 @@ h1 {
     margin-top: 0;
     line-height: 1.3;
 }
+
 h2 {
     font-size: 1.75rem;
     line-height: 1.225;
@@ -588,20 +362,25 @@ h2 {
     margin-bottom: 2rem;
     border-bottom: 1px solid #eaecef;
 }
+
 h3 {
     font-size: 1.4rem;
     line-height: 1.43;
 }
+
 h4 {
     font-size: 1.2rem;
 }
+
 h5 {
     font-size: 1rem;
 }
+
 h6 {
     font-size: 1rem;
     color: #777;
 }
+
 p,
 blockquote,
 ul,
@@ -610,10 +389,12 @@ dl,
 table {
     margin: 0.8em 0;
 }
+
 li > ol,
 li > ul {
     margin: 0 0;
 }
+
 hr {
     height: 2px;
     padding: 0;
@@ -623,18 +404,22 @@ hr {
     overflow: hidden;
     box-sizing: content-box;
 }
+
 body > h2:first-child {
     margin-top: 0;
     padding-top: 0;
 }
+
 body > h1:first-child {
     margin-top: 0;
     padding-top: 0;
 }
+
 body > h1:first-child + h2 {
     margin-top: 0;
     padding-top: 0;
 }
+
 body > h3:first-child,
 body > h4:first-child,
 body > h5:first-child,
@@ -642,6 +427,7 @@ body > h6:first-child {
     margin-top: 0;
     padding-top: 0;
 }
+
 a:first-child h1,
 a:first-child h2,
 a:first-child h3,
@@ -651,6 +437,7 @@ a:first-child h6 {
     margin-top: 0;
     padding-top: 0;
 }
+
 h1 p,
 h2 p,
 h3 p,
@@ -659,21 +446,26 @@ h5 p,
 h6 p {
     margin-top: 0;
 }
+
 li p.first {
     display: inline-block;
 }
+
 ul,
 ol {
     padding-left: 30px;
 }
+
 ul:first-child,
 ol:first-child {
     margin-top: 0;
 }
+
 ul:last-child,
 ol:last-child {
     margin-bottom: 0;
 }
+
 blockquote {
     color: #304455;
     border-radius: 2px;
@@ -682,6 +474,7 @@ blockquote {
     position: relative;
     border-left: none;
 }
+
 /*quote block*/
 blockquote:before {
     display: block;
@@ -694,6 +487,7 @@ blockquote:before {
     background-color:var(--drake-accent);
     border-radius: 2px;
 }
+
 #write strong {
     color: #ffffff;
     display: inline-block;
@@ -703,19 +497,23 @@ blockquote:before {
     background-color: #909090;
     border-radius: 3em;
 }
+
 table {
     padding: 0;
     word-break: initial;
 }
+
 table tr {
     border-top: 1px solid #dfe2e5;
     margin: 0;
     padding: 0;
 }
+
 table tr:nth-child(2n),
 thead {
     background-color: #fafafa;
 }
+
 table tr th {
     font-weight: bold;
     border: 1px solid #dfe2e5;
@@ -724,29 +522,36 @@ table tr th {
     margin: 0;
     padding: 6px 13px;
 }
+
 table tr td {
     border: 1px solid #dfe2e5;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
+
 table tr th:first-child,
 table tr td:first-child {
     margin-top: 0;
 }
+
 table tr th:last-child,
 table tr td:last-child {
     margin-bottom: 0;
 }
+
 #write em {
     padding: 0 5px 0 2px;
 }
+
 #write table thead th {
     background-color: #f2f2f2;
 }
+
 #write .CodeMirror-gutters {
     border-right: none;
 }
+
 /*code block*/
 #write .md-fences {
     font-size: 1rem;
@@ -760,6 +565,7 @@ table tr td:last-child {
     margin-left: 2px;
     margin-right: 2px;
 }
+
 /*code snippet*/
 #write code, tt {
     margin: 0 2px;
@@ -767,6 +573,7 @@ table tr td:last-child {
     font-family: initial !important;
     color: var(--drake-highlight);
 }
+
 /* heighlight. */
 #write mark {
     background-color: #e7ecf3;
@@ -775,31 +582,39 @@ table tr td:last-child {
     padding: 2px 2px;
     margin: 0 2px;
 }
+
 #write del {
     padding: 1px 2px;
 }
+
 .cm-s-inner .cm-link,
 .cm-s-inner.cm-link {
     color: #22a2c9;
 }
+
 .cm-s-inner .cm-string {
     color: #22a2c9;
 }
+
 .md-task-list-item > input {
     margin-left: -1.3em;
 }
+
 @media print {
     html {
         font-size: 12px;
     }
+
     table,
     pre {
         page-break-inside: avoid;
     }
+
     pre {
         word-wrap: break-word;
     }
 }
+
 #write pre.md-meta-block {
     padding: 1rem;
     font-size: 85%;
@@ -810,94 +625,120 @@ table tr td:last-child {
     color: #777777;
     margin-top: 0 !important;
 }
+
 .mathjax-block > .code-tooltip {
     bottom: .375rem;
 }
+
 #write > h3.md-focus:before {
     left: -1.5625rem;
     top: .375rem;
 }
+
 #write > h4.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
+
 #write > h5.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
+
 #write > h6.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
+
 .md-image > .md-meta {
     border-radius: 2px;
     font-family: initial;
     padding: 2px 0 0 4px;
     color: inherit;
 }
+
 .md-tag {
     color: inherit;
 }
+
 .md-toc {
     margin-top: 20px;
     padding-bottom: 20px;
 }
+
 .sidebar-tabs {
     border-bottom: none;
 }
+
 #typora-quick-open {
     border: 1px solid #ddd;
     background-color: #f8f8f8;
 }
+
 .typora-quick-open-item {
 	font-size: 1rem !important;
 	height: 48px; 
     padding-left: 8px;
     padding-top: 4px;
 }
+
 #md-notification:before {
     top: 10px;
 }
+
 /** focus mode */
+
 .on-focus-mode blockquote {
     border-left-color: rgba(85, 85, 85, 0.12);
 }
+
 header,
 .context-menu,
 .megamenu-content,
 footer {
     font-family: initial;
 }
+
 .file-node-content:hover .file-node-icon,
 .file-node-content:hover .file-node-open-state {
     visibility: visible;
 }
+
 .mac-seamless-mode #typora-sidebar {
     background-color: #fafafa;
     font-size: 1rem;
     background-color: var(--side-bar-bg-color);
 } 
+
 .md-lang {
     color: #b4654d;
 }
+
 .html-for-mac .context-menu {
     --item-hover-bg-color: #E6F0FE;
 }
+
+
 /*insert element*/
+
 span.cm-comment {
     color: #808080 !important;
 }
+
 .ty-quick-open-category.ty-has-prev .ty-quick-open-category-title {
     border-top:none;
 }
+
 .file-list-item-summary {
     font-family: initial;
 }
+
 #typora-quick-open-input {
 	margin: 8px;
 	box-shadow:none;
 	border-radius:2px;
 }
+
 #typora-quick-open-input input {
 	font-size: 1rem;
 	box-shadow:none;
@@ -907,24 +748,30 @@ span.cm-comment {
 	line-height: 32px;
 	max-height: 32px;
 }
+
 .modal-dialog#typora-quick-open{
 	border-radius: 2px;
 }
+
 .ty-quick-open-category-title {
 	padding-left: 8px;
 	color: #BEBEBE;
 }
+
 .typora-quick-open-item-path {
     font-size: 10px;
     text-overflow:ellipsis;
     white-space:nowrap
 }
+
 .outline-item {
     font-size: 1rem;
 }
+
 .sidebar-tab {
     font-size: 1rem;
 }
+
 /*footnotes mark*/
 #write .md-footnote {
     background-color: inherit;
@@ -933,16 +780,19 @@ span.cm-comment {
     border-radius: 0.9rem;
     padding-left: 0;
 }
+
 #write .md-footnote:before {
     content: "[";
 }
 #write .md-footnote:after {
     content: "]";
 }
+
 /*footnotes content*/
 .md-hover-tip .code-tooltip-content {
     border-radius: 2px;
 }
+
 /*footnotes title*/
 span.md-def-name {
     padding-right: 3ch;
@@ -950,6 +800,7 @@ span.md-def-name {
     position:relative;
     font-weight: normal;
 }
+
 /*footnotes desc*/
 .footnotes {
     font-size: 1rem;
@@ -957,53 +808,66 @@ span.md-def-name {
     color: #304455;
     position:relative;
 }
+
 /*footnotes tooltip text*/
 .code-tooltip-content .md-plain {
     font-size: 0.9rem;
     font-family: inherit;
 }
+
 .code-tooltip-content code {
     padding: 0 2px;
     font-family: inherit;
     color: #FFD760;
     background-color: inherit;
 }
+
 .code-tooltip-content a {
     color: #FFD760;
 }
+
 div.code-tooltip-content {
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
+
 .footnotes {
     opacity:1;
 }
+
 .md-def-name:after {
     content: ". ^";
     color: #304455;
 }
+
 .md-def-footnote .md-def-name:before {
     content: "";
     color: #304455;
     position:absolute;
 }
+
 .md-def-name:before {
     content: "";
     color: #304455;
     position:absolute;
 }
+
 .CodeMirror-scroll::-webkit-scrollbar {
     display: none;
 }
+
 .file-list-item-summary {
     font-size: 1em;
 }
+
 .pin-outline #outline-content .outline-active strong, .pin-outline .outline-active {
     font-weight: 500;
     color: var(--drake-highlight);
 }
+
 .file-list-item.active {
     border-left: 4px solid var(--drake-accent);
 }
+
 /**
     code render
     Name: IntelliJ IDEA darcula theme
@@ -1011,6 +875,7 @@ div.code-tooltip-content {
  */
 /*.cm-s-inner  {  }*/
 .cm-s-inner.CodeMirror { background: #2B2B2B; color: #A9B7C6; }
+
 .cm-s-inner span.cm-meta { color: #BBB529; }
 .cm-s-inner span.cm-number { color: #6897BB; }
 .cm-s-inner span.cm-keyword { color: #CC7832; }
@@ -1036,14 +901,23 @@ div.code-tooltip-content {
 .cm-s-inner span.cm-special { color: #FF9E59; }
 .cm-s-inner span.cm-matchhighlight { color: #FFFFFF; background-color: rgba(50, 89, 48, .7); font-weight: normal;}
 .cm-s-inner span.cm-searching { color: #FFFFFF; background-color: rgba(61, 115, 59, .7); font-weight: normal;}
+
 .cm-s-inner .CodeMirror-cursor { border-left: 1px solid #A9B7C6; }
 .cm-s-inner .CodeMirror-gutters { background: #313335; border-right: 1px solid #313335; }
 .cm-s-inner .CodeMirror-guttermarker { color: #FFEE80; }
 .cm-s-inner .CodeMirror-guttermarker-subtle { color: #D0D0D0; }
 .cm-s-inner .CodeMirrir-linenumber { color: #606366; }
 .cm-s-inner .CodeMirror-matchingbracket { background-color: #3B514D; color: #FFEF28 !important; }
+
 .cm-s-inner .CodeMirror-selected{ background: #214283 !important; }
 .cm-s-inner .CodeMirror-selectedtext { background: #214283 !important; }
 .cm-overlay.CodeMirror-selectedtext { background: #B5D6FC !important; }
 .cm-s-inner div.CodeMirror-cursor { border-left: 1px solid #ffffff; }
+
+
 </style>
+</head>
+<body class='typora-export'>
+<div id='write'  class=''><p>&nbsp;</p><h2><a name="팀-역할-분담" class="md-header-anchor"></a><span>팀 역할 분담</span></h2><p>&nbsp;</p><h4><a name="한지웅-hanjiung--hanjiung-🙂" class="md-header-anchor"></a><span>한지웅 (Hanjiung / Hanjiung) 🙂</span></h4><ol><li><span>업무</span></li></ol><ul><li><span> 메인 개발 및 팀장</span></li></ul><p>&nbsp;</p><ol start='2' ><li><span>코멘터리</span></li></ol><blockquote><p><span>아쉬운데?</span></p></blockquote><p>&nbsp;</p><ol start='3' ><li><span>전하고 싶은 코딩</span></li></ol><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="python"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">IndentationError</span>: <span class="cm-variable">expected</span> <span class="cm-variable">an</span> <span class="cm-variable">indented</span> <span class="cm-variable">block</span></span></pre></div><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="">​</span></span></pre></div><div class="" style="position: relative;"><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable">what</span><span class="cm-error">?</span></span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;"></div><div class="CodeMirror-gutters" style="display: none; height: 57px;"></div></div></div></pre><p>&nbsp;</p><p>&nbsp;</p><h4><a name="안아현-ahhyeon-an--toto1444-🌈" class="md-header-anchor"></a><span>안아현 (AhHyeon An / toto1444) 🌈 </span></h4><ol><li><span>역할</span></li></ol><ul><li><p><span>디자이너 및 버그 리폿, 프로젝트 병합 관리 및 개발자</span></p><p>&nbsp;</p></li></ul><ol start='2' ><li><span>코멘터리</span></li></ol><blockquote><p><span>네?</span></p></blockquote><p>&nbsp;</p><ol start='3' ><li><span>전하고 싶은 코딩</span></li></ol><pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">'\n'</span>.<span class="cm-property">join</span>([<span class="cm-string">''</span>.<span class="cm-property">join</span>([(<span class="cm-string">'Love'</span>[(<span class="cm-variable">x</span><span class="cm-operator">-</span><span class="cm-variable">y</span>) <span class="cm-operator">%</span> <span class="cm-builtin">len</span>(<span class="cm-string">'Love'</span>)] <span class="cm-keyword">if</span> ((<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">+</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">-</span><span class="cm-number">1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span><span class="cm-operator">-</span>(<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">*</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span> <span class="cm-operator">&lt;</span>= <span class="cm-number">0</span> <span class="cm-keyword">else</span> <span class="cm-string">' '</span>) <span class="cm-keyword">for</span> <span class="cm-variable">x</span> <span class="cm-keyword">in</span> <span class="cm-builtin">range</span>(<span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-number">30</span>)]) <span class="cm-keyword">for</span> <span class="cm-variable">y</span> <span class="cm-keyword">in</span> <span class="cm-builtin">range</span>(<span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">1</span>)]))</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;"></div><div class="CodeMirror-gutters" style="display: none; height: 57px;"></div></div></div></pre><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h4><a name="강성룡-sungryong-kang--ryan-🐶" class="md-header-anchor"></a><span>강성룡 (SungRyong Kang / Ryan) 🐶</span></h4><ol><li><span>업무</span></li></ol><ul><li><span>자료 조사 및 시나리오 관리 및 개발자</span></li></ul><p>&nbsp;</p><ol start='2' ><li><span>코멘터리</span></li></ol><blockquote><p><span>에너지 드링크는 제 친구이자 동반자 입니다.</span></p></blockquote><p>&nbsp;</p><ol start='3' ><li><span>전하고 싶은 코딩</span></li></ol><pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"살려주세요"</span>)</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 19px;"></div><div class="CodeMirror-gutters" style="display: none; height: 19px;"></div></div></div></pre><p>&nbsp;</p></div>
+</body>
+</html>
