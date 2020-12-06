@@ -1,1 +1,11 @@
 tags filter=lfs diff=lfs merge=lfs -text
+Assets/Backup filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_BACKUP_155410 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_BACKUP_161629 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_BASE_161629 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_REMOTE_155410 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_REMOTE_161629 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_BASE_155410 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_LOCAL_155410 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags_LOCAL_161629 filter=lfs diff=lfs merge=lfs -text
+Assets/Backup/tags.orig filter=lfs diff=lfs merge=lfs -text
