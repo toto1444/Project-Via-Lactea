@@ -4,7 +4,7 @@
  *  ###   Organized and Manged by @author           ###
  *  ###                                             ###
  *  ###   @author  AhHyeon An <toto1444@gmail.com>  ###
- *  ###   @version 1.3                              ###
+ *  ###   @version 1.6                              ###
  *  ###   @since   2020-12-03                       ###
  *  ###                                             ###
  *  ###################################################
@@ -18,16 +18,12 @@ import VueDisqus from 'vue-disqus'
 import CommentGrid from 'vue-comment-grid'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-
 Vue.use(CommentGrid)
 Vue.use(VueCompositionAPI)
 Vue.use(VueDisqus, {
   shortname: 'ojacgyo'
 })
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/jiung
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false

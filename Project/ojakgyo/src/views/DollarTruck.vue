@@ -7,6 +7,15 @@
 
 버그 제거 안아현
 -->
+<!--
+***
+***   Attempt to Fix Some Major Bugs
+***
+***   @author   AhHyeon An <toto1444@gmail.com>
+***   @edit     2020-12-06
+***   @last     2020-12-07 03:04
+***
+-->
 
 <template>
   <div>
@@ -30,7 +39,7 @@
  </template>
 
 
-    <script src="https://www.powr.io/powr.js?platform=vuejs"></script>
+<script src="https://www.powr.io/powr.js?platform=vuejs"></script>
 
 <script>
 import navigation from '@/components/nav.vue'
@@ -38,8 +47,7 @@ import chatbot from '@/components/chatbot.vue'
 import DollarTruckSource from '@/components/DollarTruck.vue'
 import VueLikeDislikeButtons from "vue-like-dislike-buttons";
 
-export default {
-      
+export default {    
     name: 'zombieCells',
     components: {
       navigation,
@@ -62,13 +70,8 @@ export default {
     dislike() {
       this.dislikes -= 1;
     }
-<<<<<<< HEAD
-}
-=======
   }
 };
->>>>>>> origin/jiung
-
 </script>
 
 <style scope>

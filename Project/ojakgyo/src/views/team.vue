@@ -6,26 +6,31 @@
 ***     @edit       2020-12-06
 ***
 -->
+<!--
+***
+***   Attempt to Fix Some Major Bugs
+***
+***   @author   AhHyeon An <toto1444@gmail.com>
+***   @edit     2020-12-06
+***   @last     2020-12-07 03:08
+***
+-->
 
 <template>
 <section class="pt-5 circle-1">
     <div>
-<<<<<<< HEAD
         <h2>Team "Ojakgyo"</h2>
         <br>
-<<<<<<< HEAD
         <ui>
             <ll>한지웅(HanJiUng/HanTimJang)</ll>
             <li>역할 : 메인 개발 및 팀장</li>
             <li>코멘터리 : </li>
         </ui>
-=======
         <ul>
             <li>한지웅(HanJiUng/HanTimJang)</li>
             <li>역할 : 메인 개발 및 팀장</li>
             <li>코멘터리 : </li>
         </ul>
->>>>>>> origin/jiung
         <ul>
             <li>안아현(AnAhHyeon/toto1444)</li>
             <li>역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</li>
@@ -36,7 +41,6 @@
             <li>역할 : 시나리오리스트 및 개발자</li>
             <li>코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다</li>
         </ul>
-=======
         <div class="team-box container pb-5 pt-5">
             <h1 class="team-head">Team "Ojakgyo"</h1>
             <p>이 페이지는 "Project Via Lactea"를 만든 Team Ojakgyo(오작교) 소개 페이지입니다.</p>
@@ -199,7 +203,6 @@
                 </div>
             </div>
         </div>        
->>>>>>> origin/RyanKSR
     </div>
         <!-- Left and right controls, 좌우 컨트롤러 -->
         <a class="carousel-control-prev" href="#demo" data-slide="prev" style="opacity: 1; left: -10%;">            <!-- Left and right controls -->
