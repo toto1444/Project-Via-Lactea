@@ -20,7 +20,7 @@ nav 개발자: 한지웅
   <div>
     <div class="navback">
       <img src="../assets/resLogo.png" class="logoSize" > 
-      <span @load="dynamicWidth" v-on:click="openNavigation()" class="navICON">&#9776;</span>
+      <span v-on:click="openNavigation()" class="navICON">&#9776;</span>
     </div>
     <div class="navC" id="ON">
       <div class="nav1">
@@ -28,10 +28,7 @@ nav 개발자: 한지웅
       </div>
       <div class="nav2">
         <ul class="nav2_nav">
-          <li :class='{ "selected": selected === 0 }' @click='changeSelected(0)'><i class="fa fa-globe"></i>What's Ojakgyo?</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href="../views/team.vue"></i>About Team</li>
-          <li :class='{ "selected": selected === 2 }' @click='changeSelected(2)'> <i href=""></i>Ranking</li>
-          <div class='select-highlight'/>
+        qwe
         </ul>
       </div>
     </div>
@@ -39,22 +36,10 @@ nav 개발자: 한지웅
 </template>
 
 <script>
-import { ref } from '@vue/composition-api'
+
 export default {
   name: 'navigation',
   methods: {
-    //Dynamically highlight nav elements
-    navSelect () {
-      const selected = ref(0)
-      const changeSelected = (i) => { 
-        selected.value = i
-        document.getElementsByClassName('select-highlight')[0].style.top = i * 50 + 5 + 'px'
-      }
-      return {
-        changeSelected,
-        selected
-      }
-    },
     // 아이콘을 누르면 NAV가 펼쳐지는 기능을 구현
     openNavigation() {
       document.getElementById('ON').style.width = '300px';

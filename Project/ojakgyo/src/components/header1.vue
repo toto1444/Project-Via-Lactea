@@ -22,7 +22,7 @@ nav 개발자: 한지웅
 <script>
 
 export default {
-  name: 'header'
+  name: 'header1'
 }
 
 </script>

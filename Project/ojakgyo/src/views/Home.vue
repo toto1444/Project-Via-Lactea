@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <navigation> </navigation>
+<!--    <navigation> </navigation> -->
     <mainPage></mainPage>
     <srcHeader></srcHeader>
     <rank></rank>
@@ -18,9 +18,9 @@
 <script>
 // @ is an alias to /src
 import mainPage from '@/components/mainPage.vue'
-import navigation from '@/components/nav.vue'
+//import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
-import srcHeader from '@/components/header.vue'
+import srcHeader from '@/components/header1.vue'
 import rank from '@/components/rank.vue'
 import src from '@/components/source.vue'
 import copyrightSource from '@/components/copyright.vue'
@@ -33,7 +33,7 @@ export default {
   
   components: {
     mainPage,
-    navigation,
+//    navigation,
     chatbot,
     srcHeader,
     rank,
