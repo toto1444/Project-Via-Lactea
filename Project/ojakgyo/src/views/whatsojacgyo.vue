@@ -404,8 +404,6 @@ table.md-table td {
 	background-color: inherit;
 }
 
-.CodeMirror-linenumber {}
-
 .CodeMirror {
 	text-align: left;
 }
