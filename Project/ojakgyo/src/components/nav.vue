@@ -27,10 +27,12 @@ nav 개발자: 한지웅
         <span v-on:click="closeNavigation()" class="navCls">&times;</span>
       </div>
       <div class="nav2">
-        <ul class="nav2_nav">
-        qwe
-        </ul>
+        <div class="nav2_nav">
+         <router-link to="whatsojacgyo">오작교란?</router-link>
+         <router-link to="team">팀소개</router-link>
+         <router-link to="/">Home</router-link>
       </div>
+         </div>
     </div>
   </div>
 </template>
