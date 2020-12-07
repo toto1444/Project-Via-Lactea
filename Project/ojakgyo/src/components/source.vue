@@ -19,7 +19,11 @@ nav 개발자: 한지웅
             <div> 2018년 7월 15일 </div>
         </div>
         <div class="gameEX"> 
+<<<<<<< HEAD
           <div class="gameHeader"><router-link style="text-decoration: None; color: black" to="/HeartPump"> 하트 펌프(Heart Pump) </router-link> </div>
+=======
+          <div class="gameHeader"><router-link to="/HeartPump"> 하트 펌프(Heart Pump) </router-link> </div>
+>>>>>>> 5d3ba8ad78b58ebd181f3e74b20f8d9105be971d
           <div class="gameContent"> 캐주얼, 액션, 리듬, 스포츠, 음악 </div>
         </div>
       

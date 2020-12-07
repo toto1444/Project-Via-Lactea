@@ -22,28 +22,6 @@ nav 개발자: 한지웅
         <button onclick="openNavigation"
         class="dropbtn">Dropdown</button>
       </div>
-  </div>
-</template>
-
-<script>
-
-export default {
-  name: 'navigation',
-  methods: {
-    // 아이콘을 누르면 NAV가 펼쳐지는 기능을 구현
-    openNavigation(e) {
-      if document.getElementById.
-      document.getElementById('ON').style.width = '300px';
-      document.getElementById('ON').style.opacity = "1";
-    },
-    // 아이콘을 누르면 NAV가 닫히는 기능을 구현
-    closeNavigation() {
-      document.getElementById('ON').style.opacity ="0";
-      document.getElementById('ON').style.width = "0px";
-    }
-  }
-}
-
 </script>
 
 
