@@ -53,9 +53,9 @@
   <h3 align="center">Project Via Lactea</h3>
 
   <p align="center">
-    Project Via Lactea is the pletform that connects devloper and tester
+    인디 게임 개발자와 게임 테스터 사이를 연결해주는 플랫폼입니다.
     <br />
-    <a href="https://github.com/toto1444/Project-Via-Lactea/tree/master/Docs"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/toto1444/Project-Via-Lactea/tree/master/Docs"><strong>문서로 보기 »</strong></a>
     <br />
     <br />
     <a href="README.md">ReadMe - English ver.</a>
@@ -82,8 +82,7 @@
 
 [![Product Name Screen Shot][roduct-screenshot]](https://*)
 
-This ReadMe page currently under-construction:
-**Please be patience**
+현재 작성 된 ReadMe를 구성한 사람들: 
 `toto1444`, `hanjiwoong`, `Moon19ht`
 
 
@@ -101,25 +100,25 @@ This ReadMe page currently under-construction:
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+로컬 복사본을 가져오려면 다음과 같은 간단한 단계를 수행하십시오.
 
 ### Prerequisites
 
-This list is what you need to use the software and how to install them.
+이 목록은 소프트웨어를 사용하는 데 필요한 것과 설치하는 방법입니다.
 * npm
 ```sh
 npm install npm@latest -g
 ```
 
-Now, need to install Vue-cli, Vue-devtools, Electron
+이제 Vue-cli, Vue-devtools, Electron을 설치해야 합니다.
 ```
 # npm install -g @vue/cli
 # npm install -g @vue/devtools
 # npm install -g electron
 ```
 
-Alright! All done!
-Everything should properly seted at this point.
+좋아요! 다 끝냈어요!
+이 시점에서 모든 것이 제대로 설정되어야 합니다.
 
 **Under-construction**
 
@@ -146,13 +145,13 @@ See the [open issues](https://github.com/toto1444/Project-Via-Lactea/issues) for
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make this open source project such an amazing thing to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+당신이 프로젝트에 기여를 하면 이 오픈소스 프로젝트에 영감을 주고, 새롭고 놀라운 것을 창조하는 기적을 보일 것입니다. 기여한 것에 대해 **대단히 감사합니다**.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b dev/AwesomeFeature`)
-3. Commit your Changes (`git commit -m 'Add some AwesomeFeature'`)
-4. Push to the Branch (`git push origin dev/AwesomeFeature`)
-5. Open a Pull Request
+1. 프로젝트를 Fork하세요.
+2. 자신의 기능적인 Branch를 만드세요. (`git checkout -b dev/AwesomeFeature`)
+3. 자신이 코딩한 것에 대해 Commit 하세요. (`git commit -m 'Add some AwesomeFeature'`)
+4. Branch에 Push 하세요. (`git push origin dev/AwesomeFeature`)
+5. Pull Request를 여세요.
 
 
 
@@ -166,7 +165,15 @@ Distributed under the GNU 3.0 License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-AhHyeon An - [@twitter_handle](https://twitter.com/toto144) - email
+AhHyeon An 
+- Twitter:  [@toto1444](https://twitter.com/toto1444) 
+- E-mail:   [@toto1444](mailto:toto1444@gmail.com?Subject=Project-Via-Lactea%20qustion)
+
+SungRyong Kang 
+- E-mail: [@ryan9947](ryan9947@daum.net?Subject=Project-Via-Lactea%20qustion)
+
+Jiung Han 
+- E-mail: [@smell2828](smell2828@daum.net?Subject=Project-Via-Lactea%20qustion)
 
 Project Link: [https://github.com/toto1444/Project-Via-Lactea](https://github.com/toto1444/Project-Via-Lactea)
 
