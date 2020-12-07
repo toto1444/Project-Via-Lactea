@@ -11,14 +11,14 @@ bug 수정: 안아현
 
 <template>
 	<div>
-		<div class="navigationDropdown">
-			<button id="downline" class="dropdown">
-				=
-			</button>
+		<div>
 			<div>
-				<router-link to="/">Home </router-link>
-				<router-link to="/whatsojacgyo">오작교란?</router-link>
-				<router-link to="/team"> 팀소개 </router-link>
+				<router-link to='/'>Home</router-link>
+				<button class="downbtn"> Dropdwon </button>
+			</div>
+			<div>
+				<router-link to="whatsojacgyo">오작교란?</router-link>
+				<router-link to="team">팀소개</router-link>
 			</div>
 		</div>
 	</div>
@@ -27,17 +27,22 @@ bug 수정: 안아현
 <script>
 export default {
 	name: 'navigation',
-	methods: {
+/*  methods: {
 		downFunction() {
-			var x = document.getElementById("downline");
-			if (x.className)
 		}
-	}
+	} */
 }
 </script>
 
 <style scoped>
 
+.downbtn {
+	background-color: #3498DB;
+	color: white;
+	border: none;
+}
 
-
+.downbtn:hover .downbtn:focus {
+	background-color: #2980B9;
+}
 </style>
