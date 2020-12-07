@@ -6,7 +6,6 @@ bug 수정: 안아현
 
 현재 연결된 곳은 : HOME.vue
 -->
-<<<<<<< HEAD
 <!--
 *** 
 ***   Attempt to Fix Some Minor Bugs, Massive merge.
@@ -18,6 +17,7 @@ bug 수정: 안아현
 -->
 
 <template>
+<!-- Original Side-nav menu
   <div>
     <div class="navback">
       <img src="../assets/resLogo.png" class="logoSize" > 
@@ -37,6 +37,7 @@ bug 수정: 안아현
       </div>
     </div>
   </div>
+-->
 	<div>
 		<div class="navtotalstyle">
 			<div class="navbgstyle">
@@ -77,6 +78,7 @@ export default {
   font-family: 'Sunflower', sans-serif;
   margin: 0px;
   padding: 0px;
+}
 
 .navtotalstyle {
 	position: fixed;
@@ -102,6 +104,7 @@ export default {
 	display: None;
 }
 
+/*
 .navC {
   z-index:2000;
   height: 100%;
@@ -130,6 +133,7 @@ export default {
   box-sizing: border-box;
   float: left;
 }
+
 ul.nav2_nav{
   width: 100%;
   position: relative;
@@ -181,6 +185,8 @@ ul.nav2_nav{
   border-bottom: 1px solid #fcfcfc;
   margin-right: 17px;
   margin-left: 8px;
+}
+*/
 
 .downbtn {
 	padding-top: 8px;

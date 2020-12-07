@@ -1,3 +1,14 @@
+-->
+<!--
+***
+***   Attempt to Fix Some Major Bugs
+***
+***   @author   AhHyeon An <toto1444@gmail.com>
+***   @edit     2020-12-07
+***   @last     2020-12-07 23:11
+***
+-->
+
 <template>
 	<div>
 		<navigation></navigation><br>
@@ -966,10 +977,6 @@ mark .md-meta {
 		break-inside: avoid;
 	}
 }
-
-@import '';
-
-/*by H16nning*/
 
 :root {
 	--bg-color: white;

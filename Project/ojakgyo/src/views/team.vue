@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!--
 ***    
 ***     스토리 및 내용 구성 담당
@@ -16,206 +15,6 @@
 ***   @last     2020-12-07 22:22
 ***
 -->
-
-<template>
-<section class="pt-5 circle-1">
-    <div>
-        <h2>Team "Ojakgyo"</h2>
-        <br>
-        <ui>
-            <ll>한지웅(HanJiUng/HanTimJang)</ll>
-            <li>역할 : 메인 개발 및 팀장</li>
-            <li>코멘터리 : </li>
-        </ui>
-        <ul>
-            <li>한지웅(HanJiUng/HanTimJang)</li>
-            <li>역할 : 메인 개발 및 팀장</li>
-            <li>코멘터리 : </li>
-        </ul>
-        <ul>
-            <li>안아현(AnAhHyeon/toto1444)</li>
-            <li>역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</li>
-            <li>코멘터리 : </li>
-        </ul>
-        <ul>
-            <li>강성룡(KangSungRyong/Ryan)</li>
-            <li>역할 : 시나리오리스트 및 개발자</li>
-            <li>코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다</li>
-        </ul>
-        <div class="team-box container pb-5 pt-5">
-            <h1 class="team-head">Team "Ojakgyo"</h1>
-            <p>이 페이지는 "Project Via Lactea"를 만든 Team Ojakgyo(오작교) 소개 페이지입니다.</p>
-        </div>
-        <div class="contaier pb-5 position-relative">
-        <div id="demo" class="carousel slide position-relative" data-ride="carousel">
-
-            <!-- Indicators, 인티케이터-->
-            <ul class="carousel-Indicators">
-                <li data-target="#demo" data-slide-to="0" class=""></li>
-                <li data-target="#demo" data-slide-to="1" class="active"></li>
-                <li data-target="#demo" data-slide-to="2" class=""></li>
-            </ul>
-
-            <!-- The slideshow, 슬라이드 쇼 -->
-            <div class="carousel-inner">
-                <div class="carousel-item active carousel-item-left">
-                    <div class="d-flex">
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
-                            <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl3 pt-4">팀 오작교(Team Ojakgyo)</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p1"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>한지웅(HanJiUng/HanTimJang)</p>
-                                    <p class="text-gray">역할 : 메인 개발 및 팀장</p>
-                                    <p class="text-gray">코멘터리 : </p>
-                                </div>
-                            </div>
-                            <span></span>
-                        </i>
-                    </div>
-                    <div class="col-lg=4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p2"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>안아현(AnAhHyeon/toto1444)</p>
-                                    <p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발</p>
-                                    <p class="text-gray">코멘터리 : </p>
-                                </div>
-                            </div>
-                        </i>
-                    </div>
-                    <div class="col-lg=4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p3"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>강성룡(KangSungRyong/Ryan)</p>
-                                    <p class="text-gray">역할 : 시나리오리스트 및 개발</p>
-                                    <p class="text-gray">코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다.</p>
-                                </div>
-                            </div>
-                        </i>
-                    </div>
-                    </div>
-
-                </div>
-                <div class="carousel-item carousel-item-next carousel-item-left">
-                    <div class="d-flex">
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="introduce pb-3">
-                                <div class="flex-column-1">
-                                    <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                                </div>
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p2"></div>
-                                    <div class="information  flex-column pl-3 pt-2">
-										<p>안아현(AnAhHyeon/toto1444)</p>
-									<p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</p>
-                                        <p class="text-gray">코멘터리 :</p>
-									</div>
-                                </div>
-                                <span></span>
-                            </i>
-                        </div>
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="introduce pb-3">
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p2"></div>
-                                    <div class="information flex-column pl-3 pt-2">
-                                        <p>안아현(AnAhHyeon/toto1444)</p>
-                                        <p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</p>
-                                        <p class="text-gray">코멘터리 :</p>
-                                    </div>
-                                </div>
-                            </i>
-                        </div>
-                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p3"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>강성룡(KangSungRyong/Ryan)</p>
-                                    <p class="text-gray">역할 : 시나리오리스트 및 개발자</p>
-                                    <p class="text-gray">코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다</p>
-                                </div>
-                            </div>
-                        </i>
-                    </div>
-
-                </div>
-                <div class="carousel-item ">
-                    <div class="d-flex">
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="instroduce pb-3">
-                            <div class="flex-colun-1 ">
-                                <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p1"></div>
-                                    <div class="information flex-column pl-3 pt-2">
-                                        <p>한지웅(HanJiUng/HanTimJang)</p>
-                                        <p class="text-gray">역할 : 메인 개발 및 팀장</p>
-                                        <p class="text-gray">코멘터리 : </p>
-                                    </div>
-                                </div>
-                                <span></span>
-                            </i>
-                        </div>
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="introduce pb-3">
-                                <div class="flex-column-1 ">
-                                    <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                                </div>
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p2"></div>
-                                    <div class="information  flex-column pl-3 pt-2">
-                                        <p>안아현(AnAhHyeon/toto1444)</p>
-                                        <p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</p>
-                                        <p class="text-gray">코멘터리 : </p>
-                                    </div>
-                                </div>
-                            </i>
-                        </div>
-                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p1"></div>
-                                <div class="information" flex-column pl-3 pt-2>
-                                    <p>한지웅(HanJiUng/HanTimJang)</p>
-                                    <p class="text-gray">역할 : 메인 개발 및 팀장</p>
-                                    <p class="text-gray">코멘터리 : </p>
-                                </div>
-                            </div>
-                        </i>
-                    </div>
-                </div>
-            </div>
-        </div>        
-    </div>
-        <!-- Left and right controls, 좌우 컨트롤러 -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev" style="opacity: 1; left: -10%;">            <!-- Left and right controls -->
-<i class="fas fa-chevron-left" style="color:#3ab2c4; font-size:30px;"></i>
-        </a>
-		<a class="carousel-control-next" href="#demo" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: -10%;">
-<i class="fas fa-chevron-left" style="color:#3ab2c4; font-size:30px;"></i>
-        </a> 
-        </div>
-        </div>
-    </div>
-</section>
 
 <template>
 	<div>
@@ -469,7 +268,7 @@
 </div>
 </template>
 
-<script scoped> 
+<script> 
 import navigation from "@/components/nav.vue"
 export default {
   name: "team",
@@ -477,7 +276,9 @@ export default {
 		navigation
 	}
 }
+</script>
 
+<style scoped>
 @import url('https://fonts.googleapis.com/css?family=Sunflower:Light');
 .team-box {
     width: 60%;
