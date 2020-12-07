@@ -19,7 +19,7 @@ nav 개발자: 한지웅
             <div> 2018년 7월 15일 </div>
         </div>
         <div class="gameEX"> 
-          <div class="gameHeader"><router-link href="/HeartPump"> 하트 펌프(Heart Pump) </router-link> </div>
+          <div class="gameHeader"><router-link style="text-decoration: None; color: black" to="/HeartPump"> 하트 펌프(Heart Pump) </router-link> </div>
           <div class="gameContent"> 캐주얼, 액션, 리듬, 스포츠, 음악 </div>
         </div>
       
@@ -33,7 +33,7 @@ nav 개발자: 한지웅
             <div> 2017년 1월 15일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><router-link to="/DollarTruck"> Dollar Truck </router-link> </div>
+                <div class="gameHeader"><router-link style="text-decoration: None; color: black" to="/DollarTruck"> Dollar Truck </router-link> </div>
                 <div class="gameContent"> 시뮬레이션, 운전, 자동차 시뮬레이션, 오픈월드 </div>
         </div>
       </div>
@@ -46,7 +46,7 @@ nav 개발자: 한지웅
             <div> 2020년 2월 22일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><router-link to="/zombieCells"> Zombie Cells</router-link> </div>
+                <div class="gameHeader"><router-link style="text-decoration: None; color: black" to="/zombieCells"> Zombie Cells</router-link> </div>
                 <div class="gameContent"> 2D, 로크라이크, 액셕, 황스크롤(사이드뷰), 어드벤처 </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ nav 개발자: 한지웅
             <div> 2019년 2월 17일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><router-link to="/WTFO"> WTFO(What The Fuck Out) </router-link> </div>
+                <div class="gameHeader"><router-link style="text-decoration: None; color: black" to="/WTFO"> WTFO(What The Fuck Out) </router-link> </div>
                 <div class="gameContent"> 액션, FPS, 4인 협동 플레이, PvE, 호러 </div>
         </div>
       </div>
@@ -72,7 +72,7 @@ nav 개발자: 한지웅
             <div> 2017년 4월 1일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><router-link to="/WBMZ">What a beautiful My Zoo(WBMZ) </router-link></div>
+                <div class="gameHeader"><router-link style="text-decoration: None; color: black" to="/WBMZ">What a beautiful My Zoo(WBMZ) </router-link></div>
                 <div class="gameContent"> 경영, 시뮬레이션, 건설, 자연, 도시건설, 경제 </div>
         </div>
       </div>
@@ -103,6 +103,10 @@ export default {
 
 <style scope>
 
+
+a {
+  text-decoration: None;
+}
 .game {
   border-top: 1px solid #f0f0f5;
   background-color: #f6f8fa;

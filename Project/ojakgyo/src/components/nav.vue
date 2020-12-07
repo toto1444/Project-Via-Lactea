@@ -18,20 +18,10 @@ nav 개발자: 한지웅
 
 <template>
   <div>
-    <div class="navback">
-      <img src="../assets/resLogo.png" class="logoSize" > 
-      <span v-on:click="openNavigation()" class="navICON">&#9776;</span>
-    </div>
-    <div class="navC" id="ON">
-      <div class="nav1">
-        <span v-on:click="closeNavigation()" class="navCls">&times;</span>
+      <div class="dropdown">
+        <button onclick="openNavigation"
+        class="dropbtn">Dropdown</button>
       </div>
-      <div class="nav2">
-        <ul class="nav2_nav">
-        qwe
-        </ul>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -41,7 +31,8 @@ export default {
   name: 'navigation',
   methods: {
     // 아이콘을 누르면 NAV가 펼쳐지는 기능을 구현
-    openNavigation() {
+    openNavigation(e) {
+      if document.getElementById.
       document.getElementById('ON').style.width = '300px';
       document.getElementById('ON').style.opacity = "1";
     },
@@ -52,11 +43,13 @@ export default {
     }
   }
 }
+
 </script>
 
 
-<style lang="scss" scoped>
+<style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /* 아이콘을 누르면 펼쳐지는 것에 대한 스타일 */
 * {
   font-family: 'Roboto', sans-serif;
@@ -64,110 +57,13 @@ export default {
   padding: 0px;
 
 }
-.logoSize {
-  position: relative;
-  left: 45%;
-  width: 8%;
-}
-.navback {
+
+.navbgcolor {
   position: fixed;
+  opacity: 0.9;
   z-index: 1000;
   background-color: #4db9bf;
   width: 100%;
   height: 6%;
-}
-.navICON {
-  position: relative;
-  left: 80%;
-  display: inline-block;
-  overflow-x: hidden;
-  z-index: 1;
-  cursor: pointer;
-  font-size: 30px;
-}
-.navCls {
-  text-align: center;
-  position: relative;
-}
-
-.navC {
-  z-index:2000;
-  height: 100%;
-  width: 0%;
-  font-size: 17px;
-  position: fixed;
-  background-color: #ffffff;
-  overflow-y: hidden;
-  transition: 0.1s;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
-}
-
-.nav1 {
-  background-color: #FAFBFC;
-}
-
-.nav2{
-  height: 100vh;
-  max-height: 100vh;
-  overflow: hidden;
-  position: relative;
-  width: 300px;
-  font-size: 1.2em;
-  background-color: #fff;
-  padding: 30px 0 0 30px;
-  box-sizing: border-box;
-  float: left;
-}
-ul.nav2_nav{
-  width: 100%;
-  position: relative;
-  li {
-    padding: 10px 0;
-    font-size: 0.9em;
-    color: #d2dae2;
-    cursor: pointer;
-    margin-bottom: 10px;
-    
-    &.selected {
-      color: #4bcffa;
-    }
-
-    i {
-      width: 40px;
-      color: inherit;
-    }
-  }
-  li:hover {
-      color: #4bcffa;
-     }
-}
-
-.select-highlight {
-  position: absolute;
-  right: 0;
-  top: 5px;
-  height: 30px;
-  width: 4px;
-  background-color: #4bcffa;
-  transition: 0.1s top ease-out;
-}
-
-.nav1 a{
-  color: #24292E;
-  padding: 12px 8px 8px 20px;
-  text-decoration: None;
-  display: block;
-  border-bottom: 1px solid gray;
-  margin-right: 17px;
-  margin-left: 8px;
-}
-.nav2 a{
-  color: #24292E;
-  padding: 12px 8px 8px 5px;
-  text-decoration: None;
-  display: block;
-  border-bottom: 1px solid gray;
-  margin-right: 17px;
-  margin-left: 8px;
 }
 </style>
