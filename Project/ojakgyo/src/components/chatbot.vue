@@ -106,19 +106,19 @@ html {
 
 }
 #inputMessage {
-  width: 80%;
-  height: 100%;
+  width: 85%;
+  height: 20px;
 }
 .massageBottom {
   position: absolute;
   bottom: 0;
-  background-color: #bef5cb;
+  background-color:  #d1d5da;
   width: 100%;
   height: 25px;
 }
 .onSubmitImg {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 13px;
 }
 .anonymousM {
   float: right;
@@ -147,13 +147,17 @@ html {
   border-top-right-radius: 20px;
 }
 
-.managerName {
+.ManagerName {
   display:block;
+	color: #ffffff;
+	margin-left: 10px;
 }
 .Xright {
-  float: right;
+	position: absolute;
+	left: 90%;
+	top: 0%;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .chatPopup {
   width: 230px;
