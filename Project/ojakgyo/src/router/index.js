@@ -3,10 +3,8 @@ import VueRouter from 'vue-router'
 import VueCompositionApi from '@vue/composition-api';
 import Home from '../views/Home.vue'
 
-//import VueMarkdown from 'vue-markdown'
 Vue.use(VueCompositionApi);
 Vue.use(VueRouter)
-//Vue.use(VueMarkdown)
 
 const routes = [
   {
@@ -14,18 +12,45 @@ const routes = [
     name: 'Home',
     component: Home
   },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  },
+  //{
+  //  path: '/about',
+  //  name: 'About',
+  //  component: () => import(/* webpackChunkName: "about" */ '../component/About/.vue')
+  //},
   {
     path: '/zombieCells',
     name: 'zombieCells',
     component: () => import('../views/zombieCells.vue')
+  },
+  {
+    path: '/WBMZ',
+    name: '/WBMZ',
+    component: () => import('../views/WBMZ.vue')
+  },
+  {
+    path: '/HeartPump',
+    name: 'HeartPump',
+    component: () => import('../views/HeartPump.vue')
+  },
+  {
+    path: '/WTFO',
+    name: 'WTFO',
+    component: () => import('../views/WTFO.vue')
+  },
+  {
+    path: '/DollarTruck',
+    name: 'DollarTruck',
+    component: () => import('../views/DollarTruck.vue')
+  },
+  {
+    path: '/whatsojakgyo',
+    name: 'whatsojakgyo',
+    component: () => import ('../views/whatsojakgyo.vue')
+  },
+  {
+    path: '/team',
+    name: 'team',
+    component: () => import ('../views/team.vue')
   }
 ]
 

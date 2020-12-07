@@ -8,11 +8,11 @@ nav 개발자: 한지웅
 -->
 <!--
 *** 
-***   Attempt to Fix Some Minnor Bugs
+***   Attempt to Fix Some Minor Bugs
 ***
 ***   @author   AhHyeon An <toto1444@gmail.com>
 ***   @edit     2020-12-03
-***   @last     2020-12-03 10:38
+***   @last     2020-12-07 03:02
 ***
 -->
 
@@ -28,10 +28,9 @@ nav 개발자: 한지웅
       </div>
       <div class="nav2">
         <ul class="nav2_nav">
-          <li :class='{ "selected": selected === 0 }' @click='changeSelected(0)'> <i href=""></i>Why Ojakgyo?</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href=""></i>Team</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href=""></i>Lanking</li>
-          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i href=""></i>미정</li>
+          <li :class='{ "selected": selected === 0 }' @click='changeSelected(0)'><i class="fa fa-globe"></i>What's Ojakgyo?</li>
+          <li :class='{ "selected": selected === 1 }' @click='changeSelected(1)'> <i class='fa fa checkbox'></i>About Team</li>
+          <li :class='{ "selected": selected === 2 }' @click='changeSelected(2)'> <i class='fa fa checkbox'></i>Ranking</li>
           <div class='select-highlight'/>
         </ul>
       </div>
@@ -72,10 +71,10 @@ export default {
 
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sunflower:Light');
 /* 아이콘을 누르면 펼쳐지는 것에 대한 스타일 */
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Sunflower', sans-serif;
   margin: 0px;
   padding: 0px;
 
@@ -112,14 +111,14 @@ export default {
   width: 0%;
   font-size: 17px;
   position: fixed;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   overflow-y: hidden;
   transition: 0.1s;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 .nav1 {
-  background-color: #FAFBFC;
+  background-color: #fcfcfc;
 }
 
 .nav2{
@@ -129,7 +128,7 @@ export default {
   position: relative;
   width: 300px;
   font-size: 1.2em;
-  background-color: #fff;
+  background-color: #fcfcfc;
   padding: 30px 0 0 30px;
   box-sizing: border-box;
   float: left;
@@ -145,7 +144,7 @@ ul.nav2_nav{
     margin-bottom: 10px;
     
     &.selected {
-      color: #4bcffa;
+      color: #3a2bc4;
     }
 
     i {
@@ -154,7 +153,7 @@ ul.nav2_nav{
     }
   }
   li:hover {
-      color: #4bcffa;
+      color: #3a2bc4;
      }
 }
 
@@ -164,7 +163,7 @@ ul.nav2_nav{
   top: 5px;
   height: 30px;
   width: 4px;
-  background-color: #4bcffa;
+  background-color: #3a2bc4;
   transition: 0.1s top ease-out;
 }
 
@@ -173,7 +172,7 @@ ul.nav2_nav{
   padding: 12px 8px 8px 20px;
   text-decoration: None;
   display: block;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #fcfcfc;
   margin-right: 17px;
   margin-left: 8px;
 }
@@ -182,7 +181,7 @@ ul.nav2_nav{
   padding: 12px 8px 8px 5px;
   text-decoration: None;
   display: block;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #fcfcfc;
   margin-right: 17px;
   margin-left: 8px;
 }

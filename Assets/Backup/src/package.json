@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "@vue/cli-service": "^4.5.9",
+    "vue-comment-grid": "^1.0.12",
+    "vue-disqus": "^4.0.1",
+    "vue-like-dislike-buttons": "^0.2.4",
+    "vue-real-wave": "^1.0.4",
+    "vue-waves-effect": "^1.0.0"
+  }
+}

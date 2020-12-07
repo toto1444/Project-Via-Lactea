@@ -6,6 +6,8 @@
 *** @author  AhHyeon An <toto1444@gmail.com>
 *** @version 1.1
 *** @since   2020-09-27
+*** @latest  2020-12-07 16:30
+***
 -->
 
 <!-- NOTE FOR CONTRIBUTERS -->
@@ -56,6 +58,8 @@
     <a href="https://github.com/toto1444/Project-Via-Lactea/tree/master/Docs"><strong>Explore the docs »</strong></a>
     <br />
     <br />
+    <a href="README_ko.md">ReadMe - 한국어 버전</a>
+    ·
     <a href="*">View Demo - Not avaliable yet</a>
     ·
     <a href="https://github.com/toto1444/Project-Via-Lactea/issues">Report Bug</a>
