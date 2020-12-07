@@ -12,13 +12,13 @@ bug 수정: 안아현
 <template>
 	<div>
 		<div>
-			<div>
+			<div class="navbgstyle">
 				<router-link to='/'>Home</router-link>
-				<button class="downbtn"> Dropdwon </button>
+				<button class="downbtn" v-on:click="downupbtn"> Dropdwon </button>
 			</div>
-			<div>
-				<router-link to="whatsojacgyo">오작교란?</router-link>
-				<router-link to="team">팀소개</router-link>
+			<div id="btnshowing">
+				<router-link class="dropa" to="whatsojacgyo">오작교란?</router-link>
+				<router-link class="dropa" to="team">팀소개</router-link>
 			</div>
 		</div>
 	</div>
@@ -27,14 +27,27 @@ bug 수정: 안아현
 <script>
 export default {
 	name: 'navigation',
-/*  methods: {
-		downFunction() {
+  methods: {
+		downupbtn() {
+			var showing =  document.getElementById("btnshowing");
+			if (showing.style.display === "") {
+				showing.style.display = "block";
+			}  else {
+				showing.style.display = "";
+			}
 		}
-	} */
+	}
 }
 </script>
 
 <style scoped>
+.navbgstyle {
+	background-color: #3498DB;
+	height: 35px;
+}
+#btnshowing {
+	display: None;
+}
 
 .downbtn {
 	background-color: #3498DB;
