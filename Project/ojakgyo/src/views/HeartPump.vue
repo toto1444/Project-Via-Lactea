@@ -30,15 +30,11 @@
  </div>
  </template>
 
-
-
-
 <script>
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
 import HeartPumpSource from '@/components/HeartPump'
 import VueLikeDislikeButtons from 'vue-like-dislike-buttons'
-
 
 export default {
       
