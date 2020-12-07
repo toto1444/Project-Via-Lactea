@@ -41,7 +41,7 @@ export default {
    animation-fill-mode: both;
    animation-name: ojacgyoMove;
    background: #555bf9;
-   z-index: 1000;
+   z-index: 9999;
 }
 @keyFrames ojacgyoMove {
   0% {

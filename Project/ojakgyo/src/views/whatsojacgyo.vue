@@ -1,4 +1,6 @@
 <template>
+	<div>
+		<navigation></navigation><br>
   <div id='write' class=''>
 	<h2><a name="오작교의-필요성" class="md-header-anchor"></a><span>오작교의 필요성</span></h2>
 	<p>
@@ -75,12 +77,17 @@
 		<li><a href='mailto:emali@emailadress.com' target='_blank' class='url'>emali@emailadress.com</a></li>
 	</ul>
 </div>
+</div>
 </template>
 
 <script>
+import navigation from '@/components/nav.vue'
 
 export default {
-  name: "whatsojacgyo"
+  name: "whatsojacgyo",
+	components: {
+		navigation
+	}
 }
 
 </script>

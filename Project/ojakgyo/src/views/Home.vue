@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-<!--    <navigation> </navigation> -->
+    <navigation> </navigation> 
     <mainPage></mainPage>
     <srcHeader></srcHeader>
     <rank></rank>
@@ -18,7 +18,7 @@
 <script>
 // @ is an alias to /src
 import mainPage from '@/components/mainPage.vue'
-//import navigation from '@/components/nav.vue'
+import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
 import srcHeader from '@/components/header1.vue'
 import rank from '@/components/rank.vue'
@@ -30,10 +30,9 @@ import VueRealWave from 'vue-real-wave'
 
 export default {
   name: 'Home',
-  
   components: {
     mainPage,
-//    navigation,
+    navigation,
     chatbot,
     srcHeader,
     rank,

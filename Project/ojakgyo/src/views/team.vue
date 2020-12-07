@@ -1,4 +1,6 @@
 <template>
+	<div>
+		<navigation></navigation>
   <div id='write' class=''>
 	<p>
 		&nbsp;
@@ -245,11 +247,15 @@
 		&nbsp;
 	</p>
 </div>
+</div>
 </template>
 <script> 
-
+import navigation from "@/components/nav.vue"
 export default {
-  name: "team"
+  name: "team",
+	components: {
+		navigation
+	}
 }
 </script>
 <style scoped>

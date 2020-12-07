@@ -16,6 +16,9 @@ bug 수정: 안아현
 				<router-link class="homestyle" to='/'>Home</router-link>
 				<button class="downbtn" v-on:click="downupbtn"> Dropdwon </button>
 			</div>
+			<div class="logolocation">
+				<img src="../assets/final_logo.png" class="logostyle">
+			</div>
 			<div id="btnshowing" class="dropstyle">
 				<router-link class="dropa1" to="whatsojacgyo">오작교란?</router-link>
 				<router-link class="dropa2" to="team">팀소개</router-link>
@@ -44,7 +47,7 @@ export default {
 .navtotalstyle {
 	position: fixed;
 	width: 100%;
-	z-index: 9999;
+	z-index: 8888;
 }
 .dropa1 {
 	border-right: 1px solid #f6f8fa;
@@ -63,9 +66,11 @@ export default {
 }
 
 .downbtn {
+	padding-top: 8px;
 	background-color: #3498DB;
 	color: white;
 	border: none;
+	font-size: 14px;
 }
 .dropstyle a {
 	color: white;
@@ -77,5 +82,14 @@ export default {
 }
 .downbtn:hover .downbtn:focus {
 	background-color: #2980B9;
+}
+.logostyle {
+	width: 50%;
+}
+.logolocation {
+	position: fixed;
+	z-index: 9999;
+	left: 80%;
+	top: 0%;
 }
 </style>
