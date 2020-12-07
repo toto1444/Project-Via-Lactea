@@ -50,7 +50,7 @@ jobs:
         to: ${{ secrets.TELEGRAM_TO_FIRE }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
         message: | 
-          [+] 커밋 ${{ github_sha }}(이)가 
+          [+] 커밋 ${{ github.sha }}(이)가 
           ${{ github.event.repository.name }} > ${{ github.ref }}에 Push 되었습니다.
           ${{ github.actor }}(이)가 Push 했습니다.
           
