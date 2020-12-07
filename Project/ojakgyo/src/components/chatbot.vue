@@ -2,7 +2,6 @@
   chatbot 개발자: 한지웅
 
   간단한 정보를 얻을 수 있는 쳇봇을 구현했습니다.
-  아직 디자인이 미완성입니다.
 -->
 <template>
   <div>
@@ -60,21 +59,21 @@ export default {
       var giveB = document.createElement('li');
       var addMessage = document.getElementById('conversationBox');
       var addMessage2 = document.getElementById('conversationBox3')
-      if (inputM.value === "배고파"){
+      if (inputM.value === "개발자"){
         
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
         addMessage.appendChild(giveM);
         inputM.value = '';
-        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "밥먹어" + '</span> </div>';
+        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "한지웅, 안아현, 강성룡" + '</span> </div>';
         setTimeout(function(){ addMessage.appendChild(giveB);}, 400);
       
         setTimeout(function(){addMessage2.scrollTo({top: addMessage2.scrollHeight, behavior: 'smooth'})} ,700);
-      }else if(inputM.value === "chatbot 한마디"){
+      }else if(inputM.value === "오죽교?"){
         
         giveM.innerHTML = '<div class="anonymousM"> <span>' + inputM.value + '</span> </div>';
         addMessage.appendChild(giveM);
         inputM.value = '';       
-        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "다들 힘내세요.!" + '</span> </div>';
+        giveB.innerHTML = '<div class="chatbotMessage"> <span>' + "오죽교는 개발자를 위한 징검다리입니다." + '</span> </div>';
         setTimeout(function(){ addMessage.appendChild(giveB);}, 1000);
         setTimeout(function(){addMessage2.scrollTo({top: addMessage2.scrollHeight, behavior: 'smooth'})} ,700);
 
