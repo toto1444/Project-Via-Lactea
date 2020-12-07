@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <navigation> </navigation>
+    <navigation> </navigation> 
     <mainPage></mainPage>
     <srcHeader></srcHeader>
     <rank></rank>
@@ -20,7 +20,7 @@
 import mainPage from '@/components/mainPage.vue'
 import navigation from '@/components/nav.vue'
 import chatbot from '@/components/chatbot.vue'
-import srcHeader from '@/components/header.vue'
+import srcHeader from '@/components/header1.vue'
 import rank from '@/components/rank.vue'
 import src from '@/components/source.vue'
 import copyrightSource from '@/components/copyright.vue'
@@ -30,7 +30,6 @@ import VueRealWave from 'vue-real-wave'
 
 export default {
   name: 'Home',
-  
   components: {
     mainPage,
     navigation,

@@ -1,5 +1,11 @@
+<!--
+Dollar Truck 페이지 개발자 : 한지웅
+
+이 페이지는 마크다운 형식으로 개발했으며, 도구는 typora를 이용했습니다.
+-->
 <template>
   <div>
+		<navigation></navigation>
   <div id='write' class=''>
             <h2>
                 <a name="dollar-truck" class="md-header-anchor"></a>

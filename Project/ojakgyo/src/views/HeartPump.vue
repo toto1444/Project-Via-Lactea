@@ -6,7 +6,6 @@
 - 스토리 보드 
 
 버그 제거 안아현
-
 -->
 
 <template>
@@ -22,16 +21,13 @@
       @like="like"
       @dislike="dislike"
     />
-    <comment-grid
-  baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
-  apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
-  nodeName="ojacgyo">
-</comment-grid>
+			<comment-grid
+		baseURL="https://ojacgyo-70cbb-default-rtdb.firebaseio.com"
+		apiKey="AIzaSyDADfelpq1NdJPHWslwZQu92mWaHnptZlo"
+		nodeName="ojacgyo">
+	</comment-grid>
  </div>
  </template>
-
-
-
 
 <script>
 import navigation from '@/components/nav.vue'
@@ -39,10 +35,9 @@ import chatbot from '@/components/chatbot.vue'
 import HeartPumpSource from '@/components/HeartPump'
 import VueLikeDislikeButtons from 'vue-like-dislike-buttons'
 
-
 export default {
-      
-    name: 'zombieCells',
+   
+		name: 'HeartPump',
     components: {
       navigation,
       chatbot,

@@ -1,3 +1,12 @@
+<!--
+zombiecells 페이지 개발자 한지웅
+
+내용구성: 강성룡
+
+해당 페이지는 마크다운으로 작성했으며, typora 를 이용해서 변환했습니다.
+-->
+
+
 <template>
   <div>
     <div id='write' class=''>

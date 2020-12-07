@@ -1,565 +1,256 @@
-<<<<<<< HEAD
-<!--
-***    
-***     스토리 및 내용 구성 담당
-***     이 페이지는 팀원을 소개하는 페이지입니다.
-***     @author     강성룡  kangsungryong
-***     @edit       2020-12-06
-***
--->
-<!--
-***
-***   Attempt to Fix Some Major Bugs, merge.
-***
-***   @author   AhHyeon An <toto1444@gmail.com>
-***   @edit     2020-12-06
-***   @last     2020-12-07 22:22
-***
--->
-
 <template>
-<section class="pt-5 circle-1">
-    <div>
-        <h2>Team "Ojakgyo"</h2>
-        <br>
-        <ui>
-            <ll>한지웅(HanJiUng/HanTimJang)</ll>
-            <li>역할 : 메인 개발 및 팀장</li>
-            <li>코멘터리 : </li>
-        </ui>
-        <ul>
-            <li>한지웅(HanJiUng/HanTimJang)</li>
-            <li>역할 : 메인 개발 및 팀장</li>
-            <li>코멘터리 : </li>
-        </ul>
-        <ul>
-            <li>안아현(AnAhHyeon/toto1444)</li>
-            <li>역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</li>
-            <li>코멘터리 : </li>
-        </ul>
-        <ul>
-            <li>강성룡(KangSungRyong/Ryan)</li>
-            <li>역할 : 시나리오리스트 및 개발자</li>
-            <li>코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다</li>
-        </ul>
-        <div class="team-box container pb-5 pt-5">
-            <h1 class="team-head">Team "Ojakgyo"</h1>
-            <p>이 페이지는 "Project Via Lactea"를 만든 Team Ojakgyo(오작교) 소개 페이지입니다.</p>
-        </div>
-        <div class="contaier pb-5 position-relative">
-        <div id="demo" class="carousel slide position-relative" data-ride="carousel">
-
-            <!-- Indicators, 인티케이터-->
-            <ul class="carousel-Indicators">
-                <li data-target="#demo" data-slide-to="0" class=""></li>
-                <li data-target="#demo" data-slide-to="1" class="active"></li>
-                <li data-target="#demo" data-slide-to="2" class=""></li>
-            </ul>
-
-            <!-- The slideshow, 슬라이드 쇼 -->
-            <div class="carousel-inner">
-                <div class="carousel-item active carousel-item-left">
-                    <div class="d-flex">
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
-                            <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl3 pt-4">팀 오작교(Team Ojakgyo)</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p1"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>한지웅(HanJiUng/HanTimJang)</p>
-                                    <p class="text-gray">역할 : 메인 개발 및 팀장</p>
-                                    <p class="text-gray">코멘터리 : </p>
-                                </div>
-                            </div>
-                            <span></span>
-                        </i>
-                    </div>
-                    <div class="col-lg=4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p2"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>안아현(AnAhHyeon/toto1444)</p>
-                                    <p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발</p>
-                                    <p class="text-gray">코멘터리 : </p>
-                                </div>
-                            </div>
-                        </i>
-                    </div>
-                    <div class="col-lg=4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p3"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>강성룡(KangSungRyong/Ryan)</p>
-                                    <p class="text-gray">역할 : 시나리오리스트 및 개발</p>
-                                    <p class="text-gray">코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다.</p>
-                                </div>
-                            </div>
-                        </i>
-                    </div>
-                    </div>
-
+    <body class='typora-export'>
+	<div id='write'  class=''>
+		<p>&nbsp;</p>
+		<h2>
+            <a name="팀-역할-분담" class="md-header-anchor"></a>
+            <span>팀 역할 분담</span>
+        </h2>
+		<p>&nbsp;</p>
+		<h4>
+            <a name="한지웅-hanjiung--hanjiung-🙂" class="md-header-anchor"></a>
+            <span>한지웅 (Hanjiung / Hanjiung) 🙂</span>
+        </h4>
+		<ol>
+			<li>
+                <span>업무</span>
+            </li>
+		</ol>
+		<ul>
+			<li>
+                <span> 메인 개발 및 팀장</span>
+            </li>
+		</ul>
+		<p>&nbsp;</p>
+		<ol start='2' >
+			<li>
+                <span>코멘터리</span>
+            </li>
+		</ol>
+		<blockquote>
+			<p>
+                <span>아쉬운데?</span>
+            </p>
+		</blockquote>
+		<p>&nbsp;</p>
+		<ol start='3' >
+			<li>
+                <span>전하고 싶은 코딩</span>
+            </li>
+		</ol>
+		<pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="python">
+            <div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
+                <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
+                    <textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" />
                 </div>
-                <div class="carousel-item carousel-item-next carousel-item-left">
-                    <div class="d-flex">
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="introduce pb-3">
-                                <div class="flex-column-1">
-                                    <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
+                <div class="CodeMirror-scrollbar-filler" cm-not-content="true" />
+                <div class="CodeMirror-gutter-filler" cm-not-content="true" />
+                <div class="CodeMirror-scroll" tabindex="-1">
+                    <div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
+                        <div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;">
+                            <div class="CodeMirror-measure">
+                                <pre>x</pre>
+                            </div>
+                            <div class="CodeMirror-measure" />
+                            <div style="position: relative; z-index: 1;" />
+                            <div class="CodeMirror-code" role="presentation" style="">
+                                <div class="CodeMirror-activeline" style="position: relative;">
+                                    <div class="CodeMirror-activeline-background CodeMirror-linebackground" />
+                                    <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;" />
+                                    <pre class=" CodeMirror-line " role="presentation">
+                                        <span role="presentation" style="padding-right: 0.1px;">
+                                            <span class="cm-variable">IndentationError</span>: 
+                                            <span class="cm-variable">expected</span> 
+                                            <span class="cm-variable">an</span> 
+                                            <span class="cm-variable">indented</span> 
+                                            <span class="cm-variable">block</span>
+                                        </span>
+                                    </pre>
                                 </div>
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p2"></div>
-                                    <div class="information  flex-column pl-3 pt-2">
-										<p>안아현(AnAhHyeon/toto1444)</p>
-									<p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</p>
-                                        <p class="text-gray">코멘터리 :</p>
-									</div>
+                                <div class="" style="position: relative;">
+                                    <pre class=" CodeMirror-line " role="presentation">
+                                        <span role="presentation" style="padding-right: 0.1px;">
+                                            <span cm-text="" />
+                                        </span>
+                                    </pre>
                                 </div>
-                                <span></span>
-                            </i>
-                        </div>
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="introduce pb-3">
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p2"></div>
-                                    <div class="information flex-column pl-3 pt-2">
-                                        <p>안아현(AnAhHyeon/toto1444)</p>
-                                        <p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</p>
-                                        <p class="text-gray">코멘터리 :</p>
-                                    </div>
-                                </div>
-                            </i>
-                        </div>
-                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p3"></div>
-                                <div class="information flex-column pl-3 pt-2">
-                                    <p>강성룡(KangSungRyong/Ryan)</p>
-                                    <p class="text-gray">역할 : 시나리오리스트 및 개발자</p>
-                                    <p class="text-gray">코멘터리 : 에너지 드링크는 제 친구이자 동반자 입니다</p>
+                                <div class="" style="position: relative;">
+                                    <pre class=" CodeMirror-line " role="presentation">
+                                        <span role="presentation" style="padding-right: 0.1px;">
+                                            <span class="cm-variable">what</span>
+                                            <span class="cm-error">?</span>
+                                        </span>
+                                    </pre>
                                 </div>
                             </div>
-                        </i>
-                    </div>
-
-                </div>
-                <div class="carousel-item ">
-                    <div class="d-flex">
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="instroduce pb-3">
-                            <div class="flex-colun-1 ">
-                                <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p1"></div>
-                                    <div class="information flex-column pl-3 pt-2">
-                                        <p>한지웅(HanJiUng/HanTimJang)</p>
-                                        <p class="text-gray">역할 : 메인 개발 및 팀장</p>
-                                        <p class="text-gray">코멘터리 : </p>
-                                    </div>
-                                </div>
-                                <span></span>
-                            </i>
                         </div>
-                        <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column ">
-                            <i href="#" class="introduce pb-3">
-                                <div class="flex-column-1 ">
-                                    <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                                </div>
-                                <div class="flex-column-2 d-flex">
-                                    <div class="pic p2"></div>
-                                    <div class="information  flex-column pl-3 pt-2">
-                                        <p>안아현(AnAhHyeon/toto1444)</p>
-                                        <p class="text-gray">역할 : 디자이너 및 버그 리폿, 전체 프로젝트 구성 개발자</p>
-                                        <p class="text-gray">코멘터리 : </p>
-                                    </div>
-                                </div>
-                            </i>
-                        </div>
-                    <div class="col-lg-4 col-sm-12 col-12 d-flex flex-column">
-                        <i href="#" class="introduce pb-3">
-                            <div class="flex-column-1">
-                                <p class="pr-2 pl-3 pt-4">팀 오작교(Team Ojakgyo) 소개</p>
-                            </div>
-                            <div class="flex-column-2 d-flex">
-                                <div class="pic p1"></div>
-                                <div class="information" flex-column pl-3 pt-2>
-                                    <p>한지웅(HanJiUng/HanTimJang)</p>
-                                    <p class="text-gray">역할 : 메인 개발 및 팀장</p>
-                                    <p class="text-gray">코멘터리 : </p>
-                                </div>
-                            </div>
-                        </i>
                     </div>
                 </div>
             </div>
-        </div>        
-    </div>
-        <!-- Left and right controls, 좌우 컨트롤러 -->
-        <a class="carousel-control-prev" href="#demo" data-slide="prev" style="opacity: 1; left: -10%;">            <!-- Left and right controls -->
-<i class="fas fa-chevron-left" style="color:#3ab2c4; font-size:30px;"></i>
-        </a>
-		<a class="carousel-control-next" href="#demo" data-slide="next" style="opacity: 1; transform: rotate(-180deg); right: -10%;">
-<i class="fas fa-chevron-left" style="color:#3ab2c4; font-size:30px;"></i>
-        </a> 
-        </div>
+            <div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;" />
+            <div class="CodeMirror-gutters" style="display: none; height: 57px;" />
         </div>
     </div>
-</section>
-
-<template>
-	<div>
-		<navigation></navigation>
-  <div id='write' class=''>
-	<p>
-		&nbsp;
-	</p>
-	<h2><a name="팀-역할-분담" class="md-header-anchor"></a><span>팀 역할 분담</span></h2>
-	<p>
-		&nbsp;
-	</p>
-	<h4><a name="한지웅-hanjiung--hanjiung-🙂" class="md-header-anchor"></a><span>한지웅 (Hanjiung / Hanjiung) 🙂</span></h4>
-	<ol>
-		<li><span>업무</span></li>
-	</ol>
-	<ul>
-		<li><span> 메인 개발 및 팀장</span></li><br>
-	</ul>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='2'>
-		<li><span>코멘터리</span></li>
-	</ol>
-	<blockquote>
-		<p>
-			<span>아쉬운데?</span>
-		</p>
-	</blockquote><br>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='3'>
-		<li><span>전하고 싶은 코딩</span></li>
-	</ol>
-	<pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang="python">
-		<div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
-			<div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
-				<textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea>
-			</div>
-			<div class="CodeMirror-scrollbar-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-gutter-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-scroll" tabindex="-1">
-				<div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
-					<div style="position: relative; top: 0px;">
-						<div class="CodeMirror-lines" role="presentation">
-							<div role="presentation" style="position: relative; outline: none;">
-								<div class="CodeMirror-measure">
-									<pre>
-										x
-									</pre>
-								</div>
-								<div class="CodeMirror-measure">
-								</div>
-								<div style="position: relative; z-index: 1;">
-								</div>
-								<div class="CodeMirror-code" role="presentation" style="">
-									<div class="CodeMirror-activeline" style="position: relative;">
-										<div class="CodeMirror-activeline-background CodeMirror-linebackground">
-										</div>
-										<div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;">
-										</div>
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-keyword">import </span><span class="cm-variable"> tensorflow </span><span class="cm-keyword">as </span><span class="cm-variable">tf</span></span>
-										</pre>
-									</div>
-									<pre class=" CodeMirror-line " role="presentation">
-										<span role="presentation" style="padding-right: 0.1px;"><span cm-text=""></span></span>
-									</pre>
-									<div class="" style="position: relative;">
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"good!"</span>)</span>
-										</pre>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;">
-				</div>
-				<div class="CodeMirror-gutters" style="display: none; height: 57px;">
-				</div>
-			</div>
-		</div>
-	</pre>
-	<p>
-		&nbsp;
-	</p>
-<p>
-		&nbsp;
-	</p><br>
-	<h4><a name="안아현-ahhyeon-an--toto1444-🌈" class="md-header-anchor"></a><span>안아현 (AhHyeon An / toto1444) 🌈 </span></h4>
-	<ol>
-		<li><span>역할</span></li>
-	</ol>
-	<ul>
-		<li>
-		<p>
-			<span>디자이너 및 버그 리폿, 프로젝트 병합 관리 및 개발자</span>
-		</p><br>
-		<p>
-			&nbsp;
-		</p>
-		</li>
-	</ul>
-	<ol start='2'>
-		<li><span>코멘터리</span></li>
-	</ol>
-	<blockquote>
-		<p>
-			<span>네?</span>
-		</p>
-	</blockquote><br>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='3'>
-		<li><span>전하고 싶은 코딩</span></li>
-	</ol>
-	<pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false">
-		<div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
-			<div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
-				<textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea>
-			</div>
-			<div class="CodeMirror-scrollbar-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-gutter-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-scroll" tabindex="-1">
-				<div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
-					<div style="position: relative; top: 0px;">
-						<div class="CodeMirror-lines" role="presentation">
-							<div role="presentation" style="position: relative; outline: none;">
-								<div class="CodeMirror-measure">
-									<pre>
-										x
-									</pre>
-								</div>
-								<div class="CodeMirror-measure">
-								</div>
-								<div style="position: relative; z-index: 1;">
-								</div>
-								<div class="CodeMirror-code" role="presentation">
-									<div class="CodeMirror-activeline" style="position: relative;">
-										<div class="CodeMirror-activeline-background CodeMirror-linebackground">
-										</div>
-										<div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;">
-										</div>
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">'\n'</span>.<span class="cm-property">join</span>([<span class="cm-string">''</span>.<span class="cm-property">join</span>([(<span class="cm-string">'Love'</span>[(<span class="cm-variable">x</span><span class="cm-operator">-</span><span class="cm-variable">y</span>) <span class="cm-operator">%</span><span class="cm-builtin">len</span>(<span class="cm-string">'Love'</span>)] <span class="cm-keyword">if</span> ((<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">+</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">-</span><span class="cm-number">1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span><span class="cm-operator">-</span>(<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">*</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span><span class="cm-operator">&lt;</span>= <span class="cm-number">0</span><span class="cm-keyword">else</span><span class="cm-string">' '</span>) <span class="cm-keyword">for</span><span class="cm-variable">x</span><span class="cm-keyword">in</span><span class="cm-builtin">range</span>(<span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-number">30</span>)]) <span class="cm-keyword">for</span><span class="cm-variable">y</span><span class="cm-keyword">in</span><span class="cm-builtin">range</span>(<span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">1</span>)]))</span>
-										</pre>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;">
-				</div>
-				<div class="CodeMirror-gutters" style="display: none; height: 57px;">
-				</div>
-			</div>
-		</div>
-	</pre>
-	<p>
-		&nbsp;
-	</p>
-	<p>
-		&nbsp;
-	</p>
-	<p>
-		&nbsp;
-	</p><br>
-	<h4><a name="강성룡-sungryong-kang--ryan-🐶" class="md-header-anchor"></a><span>강성룡 (SungRyong Kang / Ryan) 🐶</span></h4>
-	<ol>
-		<li><span>업무</span></li>
-	</ol>
-	<ul>
-		<li><span>자료 조사 및 시나리오 관리 및 개발자</span></li><br>
-	</ul>
-	<p>
-		&nbsp;
-	</p>
-	<ol start='2'>
-		<li><span>코멘터리</span></li>
-	</ol>
-	<blockquote>
-		<p>
-			<span>에너지 드링크는 제 친구이자 동반자 입니다.</span>
-		</p>
-	</blockquote>
-	<p>
-		&nbsp;
-	</p><br>
-	<ol start='3'>
-		<li><span>전하고 싶은 코딩</span></li>
-	</ol>
-	<pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false">
-		<div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
-			<div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
-				<textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea>
-			</div>
-			<div class="CodeMirror-scrollbar-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-gutter-filler" cm-not-content="true">
-			</div>
-			<div class="CodeMirror-scroll" tabindex="-1">
-				<div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
-					<div style="position: relative; top: 0px;">
-						<div class="CodeMirror-lines" role="presentation">
-							<div role="presentation" style="position: relative; outline: none;">
-								<div class="CodeMirror-measure">
-									<pre>
-										<span>xxxxxxxxxx</span>
-									</pre>
-								</div>
-								<div class="CodeMirror-measure">
-								</div>
-								<div style="position: relative; z-index: 1;">
-								</div>
-								<div class="CodeMirror-code" role="presentation">
-									<div class="CodeMirror-activeline" style="position: relative;">
-										<div class="CodeMirror-activeline-background CodeMirror-linebackground">
-										</div>
-										<div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;">
-										</div>
-										<pre class=" CodeMirror-line " role="presentation">
-											<span role="presentation" style="padding-right: 0.1px;"><span class="cm-builtin">print</span>(<span class="cm-string">"살려주세요"</span>)</span>
-										</pre>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 19px;">
-				</div>
-				<div class="CodeMirror-gutters" style="display: none; height: 19px;">
-				</div>
-			</div>
-		</div>
-	</pre>
-	<p>
-		&nbsp;
-	</p>
-</div>
-</div>
+        </pre>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<h4>
+            <a name="안아현-ahhyeon-an--toto1444-🌈" class="md-header-anchor" />
+            <span>안아현 (AhHyeon An / toto1444) 🌈 </span>
+        </h4>
+		<ol>
+			<li>
+                <span>역할</span>
+            </li>
+		</ol>
+		<ul>
+			<li>
+				<p>
+                    <span>디자이너 및 버그 리폿, 프로젝트 병합 관리 및 개발자</span>
+                </p>
+				<p>&nbsp;</p>
+			</li>
+		</ul>
+		<ol start='2' >
+			<li>
+                <span>코멘터리</span>
+            </li>
+		</ol>
+		<blockquote>
+			<p>
+                <span>네?</span>
+            </p>
+		</blockquote>
+		<p>&nbsp;</p>
+		<ol start='3' >
+			<li>
+                <span>전하고 싶은 코딩</span>
+            </li>
+		</ol>
+		<pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false">
+            <div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
+                <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
+                    <textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" />
+                </div>
+                <div class="CodeMirror-scrollbar-filler" cm-not-content="true" />
+                <div class="CodeMirror-gutter-filler" cm-not-content="true" />
+                <div class="CodeMirror-scroll" tabindex="-1">
+                    <div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
+                        <div style="position: relative; top: 0px;">
+                            <div class="CodeMirror-lines" role="presentation">
+                                <div role="presentation" style="position: relative; outline: none;">
+                                    <div class="CodeMirror-measure">
+                                        <pre>x</pre>
+                                    </div>
+                                <div class="CodeMirror-measure" />
+                                <div style="position: relative; z-index: 1;" />
+                                <div class="CodeMirror-code" role="presentation">
+                                    <div class="CodeMirror-activeline" style="position: relative;">
+                                        <div class="CodeMirror-activeline-background CodeMirror-linebackground" />
+                                        <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;" />
+                                        <pre class=" CodeMirror-line " role="presentation">
+                                            <span role="presentation" style="padding-right: 0.1px;">
+                                                <span class="cm-builtin">print</span>
+                                                (<span class="cm-string">'\n'</span>.<span class="cm-property">join</span>([<span class="cm-string">''</span>.<span class="cm-property">join</span>([(<span class="cm-string">'Love'</span>[(<span class="cm-variable">x</span><span class="cm-operator">-</span><span class="cm-variable">y</span>) <span class="cm-operator">%</span> <span class="cm-builtin">len</span>(<span class="cm-string">'Love'</span>)] <span class="cm-keyword">if</span> ((<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">+</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">-</span><span class="cm-number">1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span><span class="cm-operator">-</span>(<span class="cm-variable">x</span><span class="cm-operator">*</span><span class="cm-number">0.05</span>)<span class="cm-operator">**</span><span class="cm-number">2</span><span class="cm-operator">*</span>(<span class="cm-variable">y</span><span class="cm-operator">*</span><span class="cm-number">0.1</span>)<span class="cm-operator">**</span><span class="cm-number">3</span> <span class="cm-operator">&lt;</span>= <span class="cm-number">0</span> <span class="cm-keyword">else</span> <span class="cm-string">' '</span>) <span class="cm-keyword">for</span> <span class="cm-variable">x</span> <span class="cm-keyword">in</span> <span class="cm-builtin">range</span>(<span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-number">30</span>)]) <span class="cm-keyword">for</span> <span class="cm-variable">y</span> <span class="cm-keyword">in</span> <span class="cm-builtin">range</span>(<span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">30</span>, <span class="cm-operator">-</span><span class="cm-number">1</span>)]))
+                                            </span>
+                                        </pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 57px;" />
+                <div class="CodeMirror-gutters" style="display: none; height: 57px;" />
+                </div>
+            </div>
+        </pre>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<h4>
+            <a name="강성룡-sungryong-kang--ryan-🐶" class="md-header-anchor"></a>
+            <span>강성룡 (SungRyong Kang / Ryan) 🐶</span>
+        </h4>
+		<ol>
+			<li>
+                <span>업무</span>
+            </li>
+		</ol>
+		<ul>
+			<li>
+                <span>자료 조사 및 시나리오 관리 및 개발자</span>
+            </li>
+		</ul>
+		<p>&nbsp;</p>
+		<ol start='2' >
+			<li>
+                <span>코멘터리</span>
+            </li>
+		</ol>
+		<blockquote>
+			<p>
+                <span>에너지 드링크는 제 친구이자 동반자 입니다.</span>
+            </p>
+		</blockquote>
+		<p>&nbsp;</p>
+		<ol start='3' >
+			<li>
+                <span>전하고 싶은 코딩</span>
+            </li>
+		</ol>
+		<pre lang="python" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false">
+            <div class="CodeMirror cm-s-inner CodeMirror-wrap" lang="python">
+                <div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;">
+                    <textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;" />
+                </div>
+                <div class="CodeMirror-scrollbar-filler" cm-not-content="true" />
+                <div class="CodeMirror-gutter-filler" cm-not-content="true" />
+                <div class="CodeMirror-scroll" tabindex="-1">
+                    <div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;">
+                        <div style="position: relative; top: 0px;">
+                            <div class="CodeMirror-lines" role="presentation">
+                                <div role="presentation" style="position: relative; outline: none;">
+                                    <div class="CodeMirror-measure">
+                                        <pre>
+                                            <span>xxxxxxxxxx</span>
+                                        </pre>
+                                    </div>
+                                    <div class="CodeMirror-measure" />
+                                    <div style="position: relative; z-index: 1;" />
+                                    <div class="CodeMirror-code" role="presentation">
+                                        <div class="CodeMirror-activeline" style="position: relative;">
+                                            <div class="CodeMirror-activeline-background CodeMirror-linebackground" />
+                                            <div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;" />
+                                            <pre class=" CodeMirror-line " role="presentation">
+                                                <span role="presentation" style="padding-right: 0.1px;">
+                                                    <span class="cm-builtin">print</span>
+                                                    (<span class="cm-string">"살려주세요"</span>)
+                                                </span>
+                                            </pre>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: absolute; height: 0px; width: 1px; border-bottom-width: 0px; border-bottom-style: solid; border-bottom-color: transparent; top: 19px;" />
+                    <div class="CodeMirror-gutters" style="display: none; height: 19px;" />
+                </div>
+            </div>
+        </pre>
+    <p>&nbsp;</p>
+	</div>
+</body>
 </template>
 
-<script scoped> 
-import navigation from "@/components/nav.vue"
+<script>
 export default {
-  name: "team",
-	components: {
-		navigation
-	}
+    name : "team_final"
 }
+</script>
 
-@import url('https://fonts.googleapis.com/css?family=Sunflower:Light');
-.team-box {
-    width: 60%;
-	justify-content: center;
-	text-align : center;
-    font-family: Sunflower;
-}
-.team-head{
-    font-family: Sunflower;
-    font-size: 30px;
-    font-weight: 400;
-    color: black;
-}
-.introduce{
-    height: 250px;
-	background-color:white;
-	box-shadow: 0 3px 10px #5969f642;
-	border-bottom: 4px solid #5969f6;
-	color: black;
-    font-family: Sunflower;
-}
-.introduce:hover{
-    box-shadow: 0 3px 15px #5969f666;
-	border-bottom: 4px solid #B122e5;
-	color: black;
-	text-decoration: none;
-    font-family: Sunflower;
-}
-.flex-column-1{
-	height: 70%;
-	width: 100%;
-
-}
-.flex-column-2{
-	height: 30%;
-	width: 100%;
-	align-items:center;
-}
-.text-gray{
-	color: gray;
-    font-family: Sunflower;
-}
-.pic{
-    height: 70px;
-    width: 70px;
-    margin-left: 20px;
-    border-radius: 50%;
-    transition: all .2s ease-in-out;
-}
-
-.introduce:hover .pic{
-	transform: scale(1.1);
-}
-.carousel-indicators .active{
-	background-color: #46eeaa;
-}
-.carousel-indicators li{
-	background-color: #c8e5ff;
-}
-.carousel-indicators{
-	bottom: -50px;
-}
-.p1{
-	background-image: url("../assets/Jiung_profile.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-.p2{
-	background-image: url("https://avatars1.githubusercontent.com/u/21187731?s=400&u=cac412b35afa36def71a7e9603f5a3cdeec74f6a&v=4");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-
-}
-.p3{
-	background-image: url('../assets/Sungryong_profile.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-}
-
+<style scoped>
 html {
 	overflow-x: initial !important;
 }
@@ -2642,3 +2333,5 @@ div.code-tooltip-content {
 	border-left: 1px solid #ffffff;
 }
 </style>
+
+

@@ -1,3 +1,10 @@
+<!-- 
+로딩 페이지 개발자: 한지웅
+디자인: 안아현
+
+해당 페이지는 앱의 느낌을 살리기 위해서, 만들어진 페이지입니다.
+-->
+
 <template>
   <div>
     <div class="ojacgyoLoading">
@@ -41,7 +48,7 @@ export default {
    animation-fill-mode: both;
    animation-name: ojacgyoMove;
    background: #555bf9;
-   z-index: 1000;
+   z-index: 9999;
 }
 @keyFrames ojacgyoMove {
   0% {
