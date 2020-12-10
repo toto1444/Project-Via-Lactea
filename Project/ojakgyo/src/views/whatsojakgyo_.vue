@@ -10,98 +10,124 @@
 -->
 
 <template>
-	<div>
-		<navigation></navigation><br>
-  <div id='write' class=''>
-	<h2><a name="오작교의-필요성" class="md-header-anchor"></a><span>오작교의 필요성</span></h2>
-	<p>
-		&nbsp;
-	</p>
-	<h3><a name="목차" class="md-header-anchor"></a><span>목차</span></h3>
-	<p>
-		<a href='#오작교란'><span>1. 오작교 소개(What&#39;s ojacgyo)</span></a>
-	</p>
-	<p>
-		<a href='#프로잭트-소개'><span>2. What is &quot;Project Via Lactea?&quot;</span></a>
-	</p>
-	<p>
-		<a href='#인디게임이란'><span>3 What is &quot;Indie Game&quot;</span></a>
-	</p>
-	<p>
-		&nbsp;
-	</p>
-	<hr/>
-	<p>
-		&nbsp;
-	</p>
-	<h2><a name="오작교란" class="md-header-anchor"></a><span>오작교란?</span></h2>
-	<p>
-		&nbsp;
-	</p>
-	<blockquote>
-		<p>
-			<span>Team &#39;Ojakgyo&#39;(오작교)는 인디 게임 개발자와 게임 테스터간의 다리를 놓아주는 &quot;Project Via Lactea&quot; 플랫폼을 제작했습니다. Ojakgyo(오작교)는 설화 &#39;견우와 직녀&#39;에서 까마귀와 까치가 만든 다리라는 뜻으로, 애인 관계인 사람 혹은 친구와 친구 애인 사이를 더 돈독하게 만드는 사람(중개자)를 비유할 때 씁니다. 즉, 팀 오작교는 인디 게임 개발자가 따로 베타테스트를 하기 힘들고 홍보하기 힘들 때, 이 플랫폼을 사용하면 배타테스터와 홍보를 동시에 잡을 수 있는 기회를 제공하는 다리를 놓아주는 역할이 됩니다.</span>
-		</p>
-	</blockquote>
-	<p>
-		&nbsp;
-	</p>
-	<hr/>
-	<p>
-		&nbsp;
-	</p>
-	<h2><a name="프로잭트-소개" class="md-header-anchor"></a><span>프로잭트 소개</span></h2>
-	<p>
-		&nbsp;
-	</p>
-	<blockquote>
-		<p>
-			<span>&quot;Project Via Lactea&quot;는 인디 게임 개발자와 게임 테스터를 이어 주는 플랫폼입니다. Project Via Lactea는 견우와 직녀 설화의 견우성과 직녀성이 있는 은하수를 뜻하는 영문인 &quot;Milky Way&quot;에서 착안해 이를 라틴어 &quot;Via Lactea&quot;로 번역한 것입니다.</span>
-		</p>
-	</blockquote>
-	<p>
-		&nbsp;
-	</p>
-	<hr/>
-	<p>
-		&nbsp;
-	</p>
-	<h3><a name="인디게임이란" class="md-header-anchor"></a><span>인디게임이란?</span></h3>
-	<p>
-		&nbsp;
-	</p>
-	<blockquote>
-		<p>
-			<span>인디 게임(Indie Game, Independent Game)이란, 소형 개발사에서 대형 기획사나 게임 회사에서의 지원을 받지 않고, 스스로의 힘으로 제작하거나, 크라우드 펀딩 등의 방법으로만 자금을 조달하여 제작된 게임을 말합니다. 인디 게임 개발자는 대부분 잘 알려지지 않은 게임들이 대부분이며, 베타테스터를 모집하기 힘들어서 자잘한 버그가 간간히 발생하는 경우가 빈번해 인디 게임 개발자들이 힘들어 하는 경우가 많습니다. 그래서! &quot;Project Via Lactea&quot; 플랫폼이 이를 해결해줄 것입니다.</span>
-		</p>
-	</blockquote>
-	<p>
-		&nbsp;
-	</p>
-	<p>
-		&nbsp;
-	</p>
-	<p>
-		<span>언제나 문의 주세요</span>
-	</p>
-	<ul>
-		<li><a href='mailto:emali@emailadress.com' target='_blank' class='url'>emali@emailadress.com</a></li>
-	</ul>
-</div>
-</div>
+  <div>
+    <navigation></navigation>
+	<br />
+    <div id="write" class="">
+      <h2>
+        <a name="오작교의-필요성" class="md-header-anchor" />
+		<span>오작교의 필요성</span>
+      </h2>
+      <p>&nbsp;</p>
+      	<h3>
+		  <a name="목차" class="md-header-anchor" />
+		  <span>목차</span>
+		</h3>
+      <p>
+        <a href="#오작교란">
+			<span>1. 오작교 소개(What&#39;s ojakgyo)</span>
+		</a>
+      </p>
+      <p>
+        <a href="#프로잭트-소개">
+			<span>2. What is &quot;Project Via Lactea?&quot;</span>
+		</a>
+      </p>
+      <p>
+        <a href="#인디게임이란">
+			<span>3 What is &quot;Indie Game&quot;</span>
+		</a>
+      </p>
+      <p>&nbsp;</p>
+      <hr />
+      <p>&nbsp;</p>
+      <h2>
+        <a name="오작교란" class="md-header-anchor" />
+		<span>오작교란?</span>
+      </h2>
+      <p>&nbsp;</p>
+      <blockquote>
+        <p>
+        	<span>
+				Team &#39;Ojakgyo&#39;(오작교)는 인디 게임 개발자와 게임 테스터간의
+				다리를 놓아주는 &quot;Project Via Lactea&quot; 플랫폼을
+				제작했습니다. Ojakgyo(오작교)는 설화 &#39;견우와 직녀&#39;에서
+				까마귀와 까치가 만든 다리라는 뜻으로, 애인 관계인 사람 혹은 친구와
+				친구 애인 사이를 더 돈독하게 만드는 사람(중개자)를 비유할 때 씁니다.
+				즉, 팀 오작교는 인디 게임 개발자가 따로 베타테스트를 하기 힘들고
+				홍보하기 힘들 때, 이 플랫폼을 사용하면 배타테스터와 홍보를 동시에
+				잡을 수 있는 기회를 제공하는 다리를 놓아주는 역할이 됩니다.
+			</span>
+        </p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <hr />
+      <p>&nbsp;</p>
+      <h2>
+        <a name="프로잭트-소개" class="md-header-anchor" />
+		<span>프로잭트 소개</span>
+      </h2>
+      <p>&nbsp;</p>
+      <blockquote>
+        <p>
+          	<span>
+				&quot;Project Via Lactea&quot;는 인디 게임 개발자와 게임 테스터를
+				이어 주는 플랫폼입니다. Project Via Lactea는 견우와 직녀 설화의
+				견우성과 직녀성이 있는 은하수를 뜻하는 영문인 &quot;Milky
+				Way&quot;에서 착안해 이를 라틴어 &quot;Via Lactea&quot;로 번역한
+				것입니다. 
+			</span>
+        </p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <hr />
+      <p>&nbsp;</p>
+      <h3>
+        <a name="인디게임이란" class="md-header-anchor" />
+		<span>인디게임이란?</span>
+      </h3>
+      <p>&nbsp;</p>
+      <blockquote>
+        <p>
+        	<span>
+				인디 게임(Indie Game, Independent Game)이란, 소형 개발사에서 대형
+				기획사나 게임 회사에서의 지원을 받지 않고, 스스로의 힘으로
+				제작하거나, 크라우드 펀딩 등의 방법으로만 자금을 조달하여 제작된
+				게임을 말합니다. 인디 게임 개발자는 대부분 잘 알려지지 않은 게임들이
+				대부분이며, 베타테스터를 모집하기 힘들어서 자잘한 버그가 간간히
+				발생하는 경우가 빈번해 인디 게임 개발자들이 힘들어 하는 경우가
+				많습니다. 그래서! &quot;Project Via Lactea&quot; 플랫폼이 이를
+				해결해줄 것입니다.
+			</span>
+        </p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>
+        <span>언제나 문의 주세요</span>
+      </p>
+      <ul>
+        <li>
+          	<a href="mailto:emali@emailadress.com" target="_blank" class="url">
+			  emali@emailadress.com
+			</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </template>
 
 <script>
 import navigation from '@/components/nav.vue'
 
 export default {
-  name: "whatsojacgyo",
+  name: "whatsojakgyo",
 	components: {
 		navigation
 	}
 }
-
 </script>
+
 
 <style scoped>
 html {

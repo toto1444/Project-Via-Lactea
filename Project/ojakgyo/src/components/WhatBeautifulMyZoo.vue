@@ -10,12 +10,13 @@
   <div>
     <div id='write' class=''>
               <h2>
-                  <a name="What-a-beautiful-My-Zoo" class="md-header-anchor"></a>
+                  <a name="What-a-beautiful-My-Zoo" class="md-header-anchor" />
                   <span>What a beautiful My Zoo(WBMZ)</span>
               </h2>
-              <p>&nbsp;</p><br>
+              <p>&nbsp;</p>
+              <br />
               <h4>
-                  <a name="목차" class="md-header-anchor"></a>
+                  <a name="목차" class="md-header-anchor" />
                   <span>목차</span>
               </h4>
               <p>
@@ -40,7 +41,7 @@
               </p><br><br>
               <p>&nbsp;</p><hr/><p>&nbsp;</p><br>
               <h4>
-                  <a name="요약" class="md-header-anchor"></a>
+                  <a name="요약" class="md-header-anchor" />
                   <span>요약</span>
               </h4>
               <ol>
@@ -59,7 +60,7 @@
               <p>&nbsp;</p>
               <p>&nbsp;</p>
               <h3>
-                  <a name="게임-특징" class="md-header-anchor"></a>
+                  <a name="게임-특징" class="md-header-anchor" />
                   <span>게임 특징</span>
               </h3>
               <p>&nbsp;</p>
@@ -90,21 +91,34 @@
                   <span>나만의 동물원의 강력한 건설 도구들만 있으면 어렵지 않게 특별한 동물원을 완성할 수 있습니다. 여러분의 결정 하나하나가 동물들의 삶과 방문객의 경험에 영향을 미칩니다. 호수와 강을 파고, 언덕과 산을 쌓고, 길과 동굴을 만들면서 마음껏 상상력을 발휘해 보세요. 다양한 테마와 수많은 건설 부품들로 세상에 하나뿐인 멋진 나만의 동물원을 완성하세요.</span>
               </p>
               <p>&nbsp;</p>
-              <p>&nbsp;</p><br><br>
+              <p>&nbsp;</p>
+              <br />
+              <br />
               <h3>
-                  <a name="게임-내용" class="md-header-anchor"></a>
+                  <a name="게임-내용" class="md-header-anchor" />
                   <span>게임 내용</span>
               </h3>
               <p>&nbsp;</p>
               <blockquote>
                   <p>
-                      <span>나만의 동물원의 강력한 건설 도구들만 있으면 어렵지 않게 특별한 동물원을 완성할 수 있습니다. 여러분의 결정 하나하나가 동물들의 삶과 방문객의 경험에 영향을 미칩니다. 호수와 강을 파고, 언덕과 산을 쌓고, 길과 동굴을 만들면서 마음껏 상상력을 발휘해 보세요. 다양한 테마와 수많은 건설 부품들로 세상에 하나뿐인 멋진 나만의 동물원을 완성하세요.</span>
+                    <span>
+                        나만의 동물원의 강력한 건설 도구들만 있으면 어렵지 않게 특별한 동물원을 완성할 수 있습니다.
+                        여러분의 결정 하나하나가 동물들의 삶과 방문객의 경험에 영향을 미칩니다. 호수와 강을 파고,
+                        언덕과 산을 쌓고, 길과 동굴을 만들면서 마음껏 상상력을 발휘해 보세요.다양한 테마와 수많은
+                        건설 부품들로 세상에 하나뿐인 멋진 나만의 동물원을 완성하세요.
+                    </span>
                   </p>
-              </blockquote><br><br>
+              </blockquote>
+              <br />
+              <br />
               <p>&nbsp;</p>
-              <p>&nbsp;</p><hr/><p>&nbsp;</p><br><br>
+              <p>&nbsp;</p>
+              <hr/>
+              <p>&nbsp;</p>
+              <br />
+              <br />
               <h4>
-                  <a name="테스터에게" class="md-header-anchor"></a>
+                  <a name="테스터에게" class="md-header-anchor" />
                   <span>테스터에게</span>
               </h4>
               <p>&nbsp;</p>

@@ -1,18 +1,18 @@
 <template>
-    <div class="ojacgyo">
+    <div class="ojakgyo">
       <navigation/>
-      <ojacgyoSource/>
+      <ojakgyoSource/>
     </div>
 </template>
 <script>
-import ojacgyoSource from '@/components/whatsojacgyo.vue'
+import ojakgyoSource from '@/components/whatsojakgyo.vue'
 import navigation from '@/components/nav.vue'
 
 export default {
-  name: 'ojacgyo',
+  name: 'ojakgyo',
   components: {
     navigation,
-    ojacgyoSource
+    ojakgyoSource
   }
 }
 </script>

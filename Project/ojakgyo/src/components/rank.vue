@@ -16,7 +16,8 @@ rank 개발자: 한지웅
 
       <div class="rangkingBorder">
         <img src="../assets/user2.png" class="rankImg">
-          <div class="rankName"> Dollar Truck </div><br>
+          <div class="rankName"> Dollar Truck </div>
+          <br />
           <div class="rankExplicate"> 자동차 시뮬레이션</div>
         <div class="rankUp">
           <p> 1234 ▲</p>

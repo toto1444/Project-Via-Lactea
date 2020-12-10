@@ -48,7 +48,7 @@ bug 수정: 안아현
 				<img src="../assets/final_logo.png" class="logostyle">
 			</div>
 			<div id="btnshowing" class="dropstyle">
-				<router-link class="dropa1" to="whatsojacgyo">오작교란?</router-link>
+				<router-link class="dropa1" to="whatsojakgyo">오작교란?</router-link>
 				<router-link class="dropa2" to="team">팀소개</router-link>
 			</div>
 		</div>
