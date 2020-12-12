@@ -1,8 +1,9 @@
 <!--
-nav 개발자: 한지웅
+source  개발자: 한지웅
 
-여기는 상단의 NAV를 정의하는 곳입니다.
-기능은 x 누르면 nav가 닫히고, 메뉴를 누르면 nav가 열립니다.
+내용 구성: 강성룡
+
+해당 페이지는 게시글이 등록된 것을 보여주는 사이트이며, 간략한 설명과 함께 표현했습니다.
 
 현재 연결된 곳은 : HOME.vue
 -->
@@ -13,67 +14,97 @@ nav 개발자: 한지웅
       <div class="game">
         <div class="source1">
           <div class="indImg"> 
-            <img src="../assets/user1.png" alt="" width="24" height="32"/>
+            <img src="../assets/user1.png" alt="" width="24" height="32" />
           </div>
             <div> Ragnaros </div>
             <div> 2018년 7월 15일 </div>
         </div>
         <div class="gameEX"> 
-          <div class="gameHeader"><a href="/HeartPump"> 하트 펌프(Heart Pump) </a> </div>
-          <div class="gameContent"> 캐주얼, 액션, 리듬, 스포츠, 음악 </div>
+          <div class="gameHeader">
+            <router-link style="text-decoration: None; color: black" to="/HeartPump">
+              하트 펌프(Heart Pump) 
+            </router-link> 
+          </div>
+          <div class="gameContent">
+              캐주얼, 액션, 리듬, 스포츠, 음악 
+          </div>
         </div>
       
       </div>
       <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/user2.png" alt="" width="24" height="32"/>
+            <img src="../assets/user2.png" alt="" width="24" height="32" />
           </div>
             <div> SBS Software </div>
             <div> 2017년 1월 15일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><a href="/DollarTruck"> Dollar Truck </a> </div>
-                <div class="gameContent"> 시뮬레이션, 운전, 자동차 시뮬레이션, 오픈월드 </div>
+                <div class="gameHeader">
+                  <router-link style="text-decoration: None; color: black" to="/DollarTruck">
+                    Dollar Truck 
+                  </router-link> 
+                </div>
+                <div class="gameContent">
+                  시뮬레이션, 운전, 자동차 시뮬레이션, 오픈월드 
+                </div>
         </div>
       </div>
       <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/user3.png" alt="" width="24" height="32"/>
+            <img src="../assets/user3.png" alt="" width="24" height="32" />
           </div>
             <div> LG Twins </div>
             <div> 2020년 2월 22일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><a href="/zombieCells"> Zombie Cells</a> </div>
-                <div class="gameContent"> 2D, 로크라이크, 액셕, 황스크롤(사이드뷰), 어드벤처 </div>
+                <div class="gameHeader">
+                  <router-link style="text-decoration: None; color: black" to="/zombieCells">
+                    Zombie Cells
+                  </router-link>
+                </div>
+                <div class="gameContent">
+                  2D, 로크라이크, 액션, 황스크롤(사이드뷰), 어드벤처
+                </div>
         </div>
       </div>
       <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/user4.png" alt="" width="24" height="32"/>
+            <img src="../assets/user4.png" alt="" width="24" height="32" />
           </div>
             <div> Zexon </div>
             <div> 2019년 2월 17일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><a href="WTFO"> WTFO(What The Fuck Out) </a> </div>
-                <div class="gameContent"> 액션, FPS, 4인 협동 플레이, PvE, 호러 </div>
+                <div class="gameHeader">
+                  <router-link style="text-decoration: None; color: black" to="/WTFO">
+                  WTFO(What The Fuck Out) 
+                  </router-link>
+                </div>
+                <div class="gameContent">
+                  액션, FPS, 4인 협동 플레이, PvE, 호러
+                </div>
         </div>
       </div>
             <div class="game">
         <div class="source1">
           <div class="indImg">
-            <img src="../assets/user5.png" alt="" width="24" height="32"/>
+            <img src="../assets/user5.png" alt="" width="24" height="32" />
           </div>
             <div> PETASS </div>
             <div> 2017년 4월 1일 </div>
         </div>
         <div class="gameEX">
-                <div class="gameHeader"><a href="/WBMZ">What a beautiful My Zoo(WBMZ) </a></div>
-                <div class="gameContent"> 경영, 시뮬레이션, 건설, 자연, 도시건설, 경제 </div>
+                <div class="gameHeader">
+                  <router-link style="text-decoration: None; color: black" to="/WBMZ">
+                    What a beautiful My Zoo(WBMZ)
+                  </router-link>
+                </div>
+                <div class="gameContent">
+                  경영, 시뮬레이션, 건설, 자연, 도시건설, 경제
+                </div>
         </div>
       </div>
       <div class="gameFinal">
@@ -103,6 +134,10 @@ export default {
 
 <style scope>
 
+
+a {
+  text-decoration: None;
+}
 .game {
   border-top: 1px solid #f0f0f5;
   background-color: #f6f8fa;

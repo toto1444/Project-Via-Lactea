@@ -1,149 +1,186 @@
+<!--
+
+하트 펌프 페이지 개발자: 한지웅
+내용 구성: 강성룡
+
+해당 페이지는 마크다운으로 작성해, typora 도구로 변환해서 제작 되었습니다.
+ 
+-->
+
 <template>
-
   <div>
-      <div id='write' class=''>
-                <h1>
-                    <a name="하트-펌프heart-pump" class="md-header-anchor"></a>
-                    <span>하트 펌프(Heart Pump)</span>
-                </h1>
-                <p>&nbsp;</p>
-                <h4>
-                    <a name="목차" class="md-header-anchor"></a>
-                    <span>목차</span>
-                </h4>
-                <p>
-                    <a href='#요약'>
-                        <span>1. 요약</span>
-                    </a>
-                </p>
-                <p>
-                    <a href='#게임-특징'>
-                        <span>2. 게임 특징</span>
-                    </a>
-                </p>
-                <p>
-                    <a href='#게임-내용'>
-                        <span>3. 게임 내용</span>
-                    </a>
-                </p>
-                <p>
-                    <a href='#테스터에게'>
-                        <span>4. 테스터에게</span>
-                    </a>
-                </p>
-                <p>&nbsp;</p><hr/><p>&nbsp;</p>
-                <h4>
-                    <a name="요약" class="md-header-anchor"></a>
-                    <span>요약</span>
-                </h4>
-                <ol>
-                    <li>
-                        <span>출시예정: 2018년 1월 15일</span>
-                    </li>
-                    <li>
-                        <span>장르: 캐주얼, 액션, 리듬, 스포츠, 음악</span>
-                    </li>
-                    <li>
-                        <span>개발사: Ragnaros</span>
-                    </li>
-                </ol>
-                <p>&nbsp;</p>
-                <p><img src="https://static.turbosquid.com/Preview/2019/07/17__11_40_47/Gas_Pump_600_0001.jpg72F9E7B1-0006-49D1-BD75-498EDF182D89Large.jpg" referrerpolicy="no-referrer" alt="image"></p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <h3>
-                    <a name="게임-특징" class="md-header-anchor"></a>
-                    <span>게임 특징</span>
-                </h3>
-                <p>&nbsp;</p>
-                <ul>
-                    <li>
-                        <p>
-                            <span>게임에 녹여진 음악과 더불어, 신규유저 유입을 위해 대중적인 인기를 얻은 음악을 리듬게임에 수록하였습니다.</span>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <span>확장팩에 가까운 신장입니다. 시리즈가 거듭할수록 수록되는 곡과 패턴이 익숙해지며, 게임에 지루한 영향이 가까울 수 있기 떄문에, 빠른 업데이트를 할 것 입니다.</span>
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            <span>적은 경쟁, 협력 요소를 더하였습니다. 요즘 대부분의 인기있는 게임은 다른 사람들과 경쟁하여 승리하는게 목적인게 다수입니다. 차별화하여 협력 요소를 더해서 재미를 더해볼 생각입니다.</span>
-                        </p>
-                        <p>&nbsp;</p>
-                    </li>
-                </ul>
-                <p>&nbsp;</p>
-                <h3>
-                    <a name="게임-내용" class="md-header-anchor"></a>
-                    <span>게임 내용</span>
-                </h3>
-                <p>&nbsp;</p>
-                <blockquote>
-                    <p>
-                        <span>최고의 인기 리듬게임이 컴퓨터로 돌아온다! 하트펌트!</span>
-                    </p>
-                    <p>
-                        <span>[폭넓은 음악 장르]</span>
-                    </p>
-                    <p>
-                        <span>Pop, Rock, Electronic 장르는 물론 Ambient, Jazz, Easy Listening 까지!</span>
-                    </p>
-                    <p>&nbsp;</p>
-                    <p>
-                        <span>[전용 뮤직 비디오]</span>
-                    </p>
-                    <p>
-                        <span>FULL HD 해상도의 유려한 뮤직비디오 제공!</span>
-                    </p>
-                    <p>&nbsp;</p>
-                    <p>
-                        <span>이제는 발보단 손! 키보드 입력으로 즐기는 추억의 펌프!</span>
-                    </p>
-                </blockquote>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p><hr/><p>&nbsp;</p>
-                <h4>
-                    <a name="테스터에게" class="md-header-anchor"></a>
-                    <span>테스터에게</span>
-                </h4>
-                <p>&nbsp;</p>
-                <p>
-                    <strong>
-                        <span>친애하는 테스터분들 안녕하십니까?, 하트 펌프 개발자입니다.</span>
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        <span>이제 출시를 압두고 있는데요!, 테스터분들에게 피드백을 듣고자 합니다.</span>
-                    </strong>
-                </p>
-                <p>&nbsp;</p>
-                <p>
-                    <strong>
-                        <span>해당 게임에 대해 문의사항, 추가할 내용, 버그 내용을 이메일로 보내주면 감사하겠습니다.!</span>
-                    </strong>
-                </p>
-                <p>
-                    <span>-
-                    </span>
-                    <a href='mailto:email@mailadress.com' target='_blank' class='url'>email@mailadress.com</a>
-                </p>
-            </div>
-      
+    <div id="write" class="">
+      <h1>
+        <a name="하트-펌프heart-pump" class="md-header-anchor"></a>
+        <span>하트 펌프(Heart Pump)</span>
+      </h1>
+      <p>&nbsp;</p>
+      <h4>
+        <a name="목차" class="md-header-anchor"></a>
+        <span>목차</span>
+      </h4>
+      <p>
+        <a href="#요약">
+          <span>1. 요약</span>
+        </a>
+      </p>
+      <p>
+        <a href="#게임-특징">
+          <span>2. 게임 특징</span>
+        </a>
+      </p>
+      <p>
+        <a href="#게임-내용">
+          <span>3. 게임 내용</span>
+        </a>
+      </p>
+      <p>
+        <a href="#테스터에게">
+          <span>4. 테스터에게</span>
+        </a>
+      </p>
+      <p>&nbsp;</p>
+      <hr />
+      <p>&nbsp;</p>
+      <h4>
+        <a name="요약" class="md-header-anchor"></a>
+        <span>요약</span>
+      </h4>
+      <ol>
+        <li>
+          <span>출시예정: 2018년 1월 15일</span>
+        </li>
+        <li>
+          <span>장르: 캐주얼, 액션, 리듬, 스포츠, 음악</span>
+        </li>
+        <li>
+          <span>개발사: Ragnaros</span>
+        </li>
+      </ol>
+      <p>&nbsp;</p>
+      <p>
+        <img
+          src="https://static.turbosquid.com/Preview/2019/07/17__11_40_47/Gas_Pump_600_0001.jpg72F9E7B1-0006-49D1-BD75-498EDF182D89Large.jpg"
+          referrerpolicy="no-referrer"
+          alt="image"
+        />
+      </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="게임-특징" class="md-header-anchor"></a>
+        <span>게임 특징</span>
+      </h3>
+      <p>&nbsp;</p>
+      <ul>
+        <li>
+          <p>
+            <span
+              >게임에 녹여진 음악과 더불어, 신규유저 유입을 위해 대중적인 인기를
+              얻은 음악을 리듬게임에 수록하였습니다.</span
+            >
+          </p>
+        </li>
+        <li>
+          <p>
+            <span
+              >확장팩에 가까운 신장입니다. 시리즈가 거듭할수록 수록되는 곡과
+              패턴이 익숙해지며, 게임에 지루한 영향이 가까울 수 있기 떄문에,
+              빠른 업데이트를 할 것 입니다.</span
+            >
+          </p>
+        </li>
+        <li>
+          <p>
+            <span
+              >적은 경쟁, 협력 요소를 더하였습니다. 요즘 대부분의 인기있는
+              게임은 다른 사람들과 경쟁하여 승리하는게 목적인게 다수입니다.
+              차별화하여 협력 요소를 더해서 재미를 더해볼 생각입니다.</span
+            >
+          </p>
+          <p>&nbsp;</p>
+        </li>
+      </ul>
+      <p>&nbsp;</p>
+      <h3>
+        <a name="게임-내용" class="md-header-anchor"></a>
+        <span>게임 내용</span>
+      </h3>
+      <p>&nbsp;</p>
+      <blockquote>
+        <p>
+          <span>최고의 인기 리듬게임이 컴퓨터로 돌아온다! 하트펌트!</span>
+        </p>
+        <p>
+          <span>[폭넓은 음악 장르]</span>
+        </p>
+        <p>
+          <span
+            >Pop, Rock, Electronic 장르는 물론 Ambient, Jazz, Easy Listening
+            까지!</span
+          >
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <span>[전용 뮤직 비디오]</span>
+        </p>
+        <p>
+          <span>FULL HD 해상도의 유려한 뮤직비디오 제공!</span>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+          <span>이제는 발보단 손! 키보드 입력으로 즐기는 추억의 펌프!</span>
+        </p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <hr />
+      <p>&nbsp;</p>
+      <h4>
+        <a name="테스터에게" class="md-header-anchor"></a>
+        <span>테스터에게</span>
+      </h4>
+      <p>&nbsp;</p>
+      <p>
+        <strong>
+          <span
+            >친애하는 테스터분들 안녕하십니까?, 하트 펌프 개발자입니다.</span
+          >
+        </strong>
+      </p>
+      <p>
+        <strong>
+          <span
+            >이제 출시를 압두고 있는데요!, 테스터분들에게 피드백을 듣고자
+            합니다.</span
+          >
+        </strong>
+      </p>
+      <p>&nbsp;</p>
+      <p>
+        <strong>
+          <span>
+            해당 게임에 대해 문의사항, 추가할 내용, 버그 내용을 이메일로
+            보내주면 감사하겠습니다.!
+            </span>
+        </strong>
+      </p>
+      <p>
+        <span>- </span>
+        <a href="mailto:email@mailadress.com" target="_blank" class="url">
+            email@mailadress.com
+        </a>
+      </p>
+    </div>
   </div>
-
 </template>
 
 <script>
-
 export default {
 name: "HeartPumpSource"
 }
-
-
 </script>
+
 <style scope>
 html {
     overflow-x: initial !important;

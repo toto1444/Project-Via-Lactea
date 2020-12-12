@@ -1,22 +1,23 @@
 <!-- 
 nav 개발자: 한지웅
+bug 수정: 안아현
 
-여기는 상단의 NAV를 정의하는 곳입니다.
-기능은 x 누르면 nav가 닫히고, 메뉴를 누르면 nav가 열립니다.
+해당 네비게이션은 자바스크립트로 구현되었고, 페이지에 맞게 파랑 색깔을 넣었습니다.
 
 현재 연결된 곳은 : HOME.vue
 -->
 <!--
 *** 
-***   Attempt to Fix Some Minor Bugs
+***   Attempt to Fix Some Minor Bugs, Massive merge.
 ***
 ***   @author   AhHyeon An <toto1444@gmail.com>
 ***   @edit     2020-12-03
-***   @last     2020-12-07 03:02
+***   @last     2020-12-07 22:18
 ***
 -->
 
 <template>
+<!-- Original Side-nav menu
   <div>
     <div class="navback">
       <img src="../assets/resLogo.png" class="logoSize" > 
@@ -36,39 +37,39 @@ nav 개발자: 한지웅
       </div>
     </div>
   </div>
+-->
+	<div>
+		<div class="navtotalstyle">
+			<div class="navbgstyle">
+				<router-link class="homestyle" to='/'>Home</router-link>
+				<button class="downbtn" v-on:click="downupbtn"> Dropdwon </button>
+			</div>
+			<div class="logolocation">
+				<img src="../assets/final_logo.png" class="logostyle">
+			</div>
+			<div id="btnshowing" class="dropstyle">
+				<router-link class="dropa1" to="whatsojakgyo">오작교란?</router-link>
+				<router-link class="dropa2" to="team">팀소개</router-link>
+			</div>
+		</div>
+	</div>
 </template>
 
 <script>
-import { ref } from '@vue/composition-api'
 export default {
-  name: 'navigation',
+	name: 'navigation',
   methods: {
-    //Dynamically highlight nav elements
-    navSelect () {
-      const selected = ref(0)
-      const changeSelected = (i) => { 
-        selected.value = i
-        document.getElementsByClassName('select-highlight')[0].style.top = i * 50 + 5 + 'px'
-      }
-      return {
-        changeSelected,
-        selected
-      }
-    },
-    // 아이콘을 누르면 NAV가 펼쳐지는 기능을 구현
-    openNavigation() {
-      document.getElementById('ON').style.width = '300px';
-      document.getElementById('ON').style.opacity = "1";
-    },
-    // 아이콘을 누르면 NAV가 닫히는 기능을 구현
-    closeNavigation() {
-      document.getElementById('ON').style.opacity ="0";
-      document.getElementById('ON').style.width = "0px";
-    }
-  }
+		downupbtn() {
+			var showing =  document.getElementById("btnshowing");
+			if (showing.style.display === "") {
+				showing.style.display = "block";
+			}  else {
+				showing.style.display = "";
+			}
+		}
+	}
 }
 </script>
-
 
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css?family=Sunflower:Light');
@@ -77,34 +78,33 @@ export default {
   font-family: 'Sunflower', sans-serif;
   margin: 0px;
   padding: 0px;
-
-}
-.logoSize {
-  position: relative;
-  left: 45%;
-  width: 8%;
-}
-.navback {
-  position: fixed;
-  z-index: 1000;
-  background-color: #4db9bf;
-  width: 100%;
-  height: 6%;
-}
-.navICON {
-  position: relative;
-  left: 80%;
-  display: inline-block;
-  overflow-x: hidden;
-  z-index: 1;
-  cursor: pointer;
-  font-size: 30px;
-}
-.navCls {
-  text-align: center;
-  position: relative;
 }
 
+.navtotalstyle {
+	position: fixed;
+	width: 100%;
+	z-index: 8888;
+}
+
+.dropa1 {
+	border-right: 1px solid #f6f8fa;
+}
+
+.homestyle {
+	color: #ffffff;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.navbgstyle {
+	background-color: #3498DB;
+	height: 38px;
+}
+
+#btnshowing {
+	display: None;
+}
+
+/*
 .navC {
   z-index:2000;
   height: 100%;
@@ -133,6 +133,7 @@ export default {
   box-sizing: border-box;
   float: left;
 }
+
 ul.nav2_nav{
   width: 100%;
   position: relative;
@@ -184,5 +185,34 @@ ul.nav2_nav{
   border-bottom: 1px solid #fcfcfc;
   margin-right: 17px;
   margin-left: 8px;
+}
+*/
+
+.downbtn {
+	padding-top: 8px;
+	background-color: #3498DB;
+	color: white;
+	border: none;
+	font-size: 14px;
+}
+.dropstyle a {
+	color: white;
+	padding: 10px;
+	display: inline-block;
+	position: relative;
+  left: 58px;
+	background-color: #51a6fc;
+}
+.downbtn:hover .downbtn:focus {
+	background-color: #2980B9;
+}
+.logostyle {
+	width: 50%;
+}
+.logolocation {
+	position: fixed;
+	z-index: 9999;
+	left: 80%;
+	top: 0%;
 }
 </style>

@@ -41,7 +41,6 @@ import chatbot from '@/components/chatbot.vue'
 import zombieSource from '@/components/zombieGame.vue'
 import VueLikeDislikeButtons from 'vue-like-dislike-buttons'
 
-
 export default {
       
     name: 'zombieCells',
